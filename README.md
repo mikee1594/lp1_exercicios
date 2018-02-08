@@ -11,7 +11,7 @@ work. If not, see <http://creativecommons.org/licenses/by-nc-sa/4.0/>.
 [![Exercícios: CC BY-NC-SA 4.0](https://img.shields.io/badge/Exercícios-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Código: GPL v3](https://img.shields.io/badge/Código-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-# Exercícios de Introdução à Computação
+# Exercícios de Linguagens de Programação I
 
 Este repositório contém uma série de exercícios da disciplina de Linguagens de
 Programação I da [Licenciatura em Aplicações Multimédia e Videojogos][lamv] da
