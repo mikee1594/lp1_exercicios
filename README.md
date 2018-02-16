@@ -24,7 +24,14 @@ secção [Colaboração](#colab).
 
 ## Conteúdos
 
-_Brevemente_
+1. [Git](problemas/01_git.md)
+2. [Bases de C#](problemas/02_bases_cs.md)
+3. [Programação Orientada a Objectos](problemas/03_poo.md)
+4. [Diagramas UML para classes](problemas/04_uml.md)
+5. [Design Patterns](problemas/05_design_patterns.md)
+6. [Tópicos avançados de C#](problemas/06_avancado.md)
+7. [MonoGame](problemas/07_monogame.md)
+8. [Unity](problemas/08_unity.md)
 
 <a name="colab" />
 
@@ -40,7 +47,8 @@ Os exercícios estão na pasta [problemas](problemas). Cada ficheiro Markdown
 corresponde aos exercícios de uma parte da matéria. Se o aluno adicionar um
 exercício, deve seguir a numeração e formatação dos exercícios anteriores. Pode
 opcionalmente adicionar a autoria do exercício através de um _link_ à sua
-página do GitHub.
+página do GitHub. Se o exercício for retirado ou adaptado de outra fonte, deve
+ser colocada uma referência a essa fonte.
 
 As soluções estão na pasta [solucoes](solucoes). Por sua vez, cada sub-pasta
 contém uma série de ficheiros Markdown com as soluções dos exercícios de
