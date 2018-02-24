@@ -10,3 +10,9 @@ seguida, o mostre no ecrã.
 _Sugerido por Gabriel Nunes a21700063_
 
 > [Soluções](../solucoes/02_bases_cs/02.md)
+
+3 - Escreve um programa que leia uma _string_ introduzida pelo utilizador, e de
+seguida mostre no ecrã os seus caracteres individuais pela ordem contrária. Por
+exemplo, ao ler a _string_ "Ola Mundo!", iria mostrar "!odnuM alO".
+
+> [Soluções](../solucoes/02_bases_cs/03.md)
