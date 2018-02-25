@@ -16,3 +16,9 @@ seguida mostre no ecrã os seus caracteres individuais pela ordem contrária. Po
 exemplo, ao ler a _string_ "Ola Mundo!", iria mostrar "!odnuM alO".
 
 > [Soluções](../solucoes/02_bases_cs/03.md)
+
+4 - Escreve um programa que leia uma _string_ introduzida pelo utilizador, e de
+seguida mostre no ecrã as 2 letras do meio. Por exemplo, ao ler a _string_
+"String", iria mostrar "ri".
+
+> [Soluções](../solucoes/02_bases_cs/04.md)
