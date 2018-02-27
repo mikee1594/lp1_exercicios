@@ -43,8 +43,8 @@ repositório.
 
 8 - Escreve os comandos git para: 1) adicionar um repositório remoto chamado
 _origin_ com URL https://github.com/VideojogosLusofona/BestGameEver; 2) fazer
-_push_, com seguimento/referência _upstream_, para o repositório remoto
-_origin_ adicionado no ponto anterior.
+_push_ do ramo local _master_, com seguimento/referência _upstream_, para
+o repositório remoto _origin_ adicionado no ponto anterior.
 
 > [Soluções](../solucoes/01_git/08.md)
 
