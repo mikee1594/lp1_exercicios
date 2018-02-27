@@ -60,15 +60,33 @@ Console.WriteLine($"{a & 0x000F}");
 
 > [Soluções](../solucoes/02_bases_cs/06.md)
 
-7 - a definir
+7 - Indica o que é mostrado no ecrã pelo seguinte código C#. Justifica a tua
+resposta.
+
+```cs
+short s = 5 / 2;
+Console.WriteLine($"*\t{s}\t*");
+```
 
 > [Soluções](../solucoes/02_bases_cs/07.md)
 
-8 - a definir
+8 - Indica o que é mostrado no ecrã pelo seguinte código C#. Justifica a tua
+resposta.
+
+```cs
+double x = 3.1223;
+Console.WriteLine(@"\\{x}\\:" + x);
+```
 
 > [Soluções](../solucoes/02_bases_cs/08.md)
 
-9 - a definir
+9 - Indica o que é mostrado no ecrã pelo seguinte código C#. Justifica a tua
+resposta.
+
+```cs
+char c = '\u00AE';
+Console.WriteLine($@"\n{c}\n");
+```
 
 > [Soluções](../solucoes/02_bases_cs/09.md)
 
@@ -77,11 +95,15 @@ o mostre no ecrã. _Sugerido por [Gabriel Nunes](https://github.com/twinventur).
 
 > [Soluções](../solucoes/02_bases_cs/10.md)
 
-11 - a definir
+11 - Escreve um programa que solicite ao utilizador dois números inteiros e
+apresente a sua soma.
 
 > [Soluções](../solucoes/02_bases_cs/11.md)
 
-12 - a definir
+12 - Escreve um programa que solicite ao utilizador dois números reais de 64
+bits e apresente o resultado do primeiro (base) elevado ao segundo (expoente).
+Sugestão: o método [`Math.Pow(x, y)`](https://docs.microsoft.com/pt-pt/dotnet/api/system.math.pow?view=netstandard-2.0#System_Math_Pow_System_Double_System_Double_)
+realiza a operação de potenciação _x<sup>y</sup>_.
 
 > [Soluções](../solucoes/02_bases_cs/12.md)
 
