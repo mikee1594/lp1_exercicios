@@ -34,3 +34,29 @@ o desenvolvimento de vídeo jogos?
 configuração apenas para um repositório?
 
 > [Soluções](../solucoes/01_git/06.md)
+
+7 - Apresenta os conteúdos do ficheiro `.gitignore` quando pretendes evitar que
+os ficheiros com extensão `.exe`, `.dll`, `.jpg` e `.png` sejam adicionados ao
+repositório.
+
+> [Soluções](../solucoes/01_git/07.md)
+
+8 - Escreve os comandos git para: 1) adicionar um repositório remoto chamado
+_origin_ com URL https://github.com/VideojogosLusofona/BestGameEver; 2) fazer
+_push_, com seguimento/referência _upstream_, para o repositório remoto
+_origin_ adicionado no ponto anterior.
+
+> [Soluções](../solucoes/01_git/08.md)
+
+9 - Na sequência do exercício anterior, qual o comando git para alterar o nome
+do repositório conhecido como _origin_ para _secondary_? E se quiséssemos
+apenas mudar o URL para https://github.com/VideojogosLusofona/not-so-good-game?
+
+> [Soluções](../solucoes/01_git/09.md)
+
+10 - Escreve os comandos git para: 1) alterar o nome do ficheiro `Programa.cs`
+para `Jogo.cs`; 2) fazer _commit_ da alteração efetuada, com uma mensagem de
+_commit_ que siga as [melhores práticas](https://gist.github.com/robertpainsi/b632364184e70900af4ab688decf6f53)
+para o efeito.
+
+> [Soluções](../solucoes/01_git/10.md)
