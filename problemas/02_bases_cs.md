@@ -124,3 +124,19 @@ _string_ "String", iria mostrar "ri".
 linha de comandos.
 
 > [Soluções](../solucoes/02_bases_cs/15.md)
+
+16 - Escreve um programa que solicite ao utilizador três números inteiros e
+apresente no ecrã "True" se for possível adicionar dois dos números para obter
+o terceiro, ou apresente "False" se não for. Por exemplo, ao receber "1", "2", e
+"3" iria mostrar "True" pois é possível somar 1 + 2 para obter 3.
+
+> [Soluções](../solucoes/02_bases_cs/16.md)
+
+17 - Escreve um programa que solicite ao utilizador um número inteiro e imprima
+o número seguido de um ponto de exclamação. Por exemplo, ao ler o número seis,
+vai mostrar no ecrã "6!" . No entanto, se o número for divisível por 3 vai
+mostrar "Fizz!", se for divisível por 5 vai mostrar "Buzz!", e se for
+divisível por 3 e por 5 mostra "FizzBuzz!" Sugestão: o operador `%` permite
+obter o resto da divisão para calcular se é divisível.
+
+> [Soluções](../solucoes/02_bases_cs/17.md)
