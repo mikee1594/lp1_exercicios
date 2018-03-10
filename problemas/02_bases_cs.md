@@ -109,14 +109,16 @@ realiza a operação de potenciação _x<sup>y</sup>_.
 
 13 - Escreve um programa que leia uma _string_ introduzida pelo utilizador, e de
 seguida mostre no ecrã os seus caracteres individuais pela ordem contrária. Por
-exemplo, ao ler a _string_ "Ola Mundo!", iria mostrar "!odnuM alO".
+exemplo, ao ler a _string_ "Ola Mundo!", iria mostrar "!odnuM alO". *Sugerido
+por [João Duarte](https://github.com/JoaoAlexandreDuarte)*
 
 > [Soluções](../solucoes/02_bases_cs/13.md)
 
 14 - Escreve um programa que leia uma _string_ introduzida pelo utilizador, e de
 seguida mostre no ecrã a(s) letra(s) do meio. Por exemplo, caso seja ímpar, ao
 ler a _string_ "12345", iria mostrar "3", no entanto se for par, ao ler a
-_string_ "String", iria mostrar "ri".
+_string_ "String", iria mostrar "ri". *Sugerido por [João Duarte](https://github.com/JoaoAlexandreDuarte), adaptado de
+codingbat.com/prob/p137729.*
 
 > [Soluções](../solucoes/02_bases_cs/14.md)
 
@@ -128,7 +130,9 @@ linha de comandos.
 16 - Escreve um programa que solicite ao utilizador três números inteiros e
 apresente no ecrã "True" se for possível adicionar dois dos números para obter
 o terceiro, ou apresente "False" se não for. Por exemplo, ao receber "1", "2", e
-"3" iria mostrar "True" pois é possível somar 1 + 2 para obter 3.
+"3" iria mostrar "True" pois é possível somar 1 + 2 para obter 3. *Sugerido por 
+[João Duarte](https://github.com/JoaoAlexandreDuarte), adaptado de
+codingbat.com/prob/p113261.*
 
 > [Soluções](../solucoes/02_bases_cs/16.md)
 
@@ -137,6 +141,19 @@ o número seguido de um ponto de exclamação. Por exemplo, ao ler o número sei
 vai mostrar no ecrã "6!" . No entanto, se o número for divisível por 3 vai
 mostrar "Fizz!", se for divisível por 5 vai mostrar "Buzz!", e se for
 divisível por 3 e por 5 mostra "FizzBuzz!" Sugestão: o operador `%` permite
-obter o resto da divisão para calcular se é divisível.
+obter o resto da divisão para calcular se é divisível. *Sugerido por
+[João Duarte](https://github.com/JoaoAlexandreDuarte), adaptado de
+codingbat.com/prob/p115243.*
 
 > [Soluções](../solucoes/02_bases_cs/17.md)
+
+18 - Escreve um programa que solicite ao utilizador um número inteiro, que vai
+corresponder ao número de linhas de um triângulo feito por blocos, calcule
+recursivamente o número total de blocos e de seguida apresente o resultado no
+ecrã. Na primeira linha o triângulo tem 1 bloco, na segunda tem 2 blocos, na
+terceira tem 3 blocos etc. Por exemplo, ao receber "4", vai calcular 1 + 2 + 3 +
+4 e mostrar no ecrã "10". *Sugerido por
+[João Duarte](https://github.com/JoaoAlexandreDuarte), adaptado de
+codingbat.com/prob/p194781.*
+
+> [Soluções](../solucoes/02_bases_cs/18.md)
