@@ -140,3 +140,12 @@ divisível por 3 e por 5 mostra "FizzBuzz!" Sugestão: o operador `%` permite
 obter o resto da divisão para calcular se é divisível.
 
 > [Soluções](../solucoes/02_bases_cs/17.md)
+
+18 - Escreve um programa que solicite ao utilizador um número inteiro, que vai
+corresponder ao número de linhas de um triângulo feito por blocos, calcule
+recursivamente o número total de blocos e de seguida apresente o resultado no
+ecrã. Na primeira linha o triângulo tem 1 bloco, na segunda tem 2 blocos, na
+terceira tem 3 blocos etc. Por exemplo, ao receber "4", vai calcular 1 + 2 + 3 +
+4 e mostrar no ecrã "10".
+
+> [Soluções](../solucoes/02_bases_cs/18.md)
