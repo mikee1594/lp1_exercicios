@@ -148,7 +148,151 @@ codingbat.com/prob/p115243.*
 
 > [Soluções](../solucoes/02_bases_cs/17.md)
 
-18 - Temos um triângulo feito de blocos. A primeira linha do triângulo tem 1
+18 - Escreve um programa que solicite ao utilizador a uma frase. Se a respetiva
+_string_ tiver mais de 20 caracteres, o programa deve mostrar no ecrã `Too long
+to read`. Se a _string_ tiver entre 5 a 20 caracteres, deve mostrar no ecrã
+`Ok, if you say so.`. Se a _string_ tiver menos de 5 caracteres, o programa
+deve mostrar no ecrã `That's not very meaningful, is it?`.
+
+> [Soluções](../solucoes/02_bases_cs/18.md)
+
+19 - Escreve um programa que solicite ao utilizador dois números reais: o
+primeiro deve representar o _high score_ atual num jogo, e o segundo deve
+representar o _score_ que o jogador acabou de conseguir. Se o _score_ do
+jogador for superior ao _high score_, o programa deve mostrar a mensagem
+`New high score!`, caso contrário deve mostrar `Keep trying`. Usa o operador
+ternário para implementar o programa.
+
+> [Soluções](../solucoes/02_bases_cs/19.md)
+
+20 - Escreve um programa que sirva como calculadora de linha de comandos,
+aceitando três argumentos: 1) a operação a realizar; 2) o primeiro operando; e,
+3) o segundo operando. A calculadora deve reconhecer as seguintes operações
+indicadas no primeiro argumento: `+`, `-`, `/`, `*` e `**` (sendo que última
+representa a operação de potenciação). A calculadora deve realizar a operação
+entre os operandos (que se podem assumir como `double`s), mostrar o resultado e
+terminar a execução. Se não forem indicados três argumentos, ou se a operação
+não for conhecida, o programa deve terminar com uma mensagem de erro
+apropriada.
+
+Exemplo de execução: `Calc.exe + 3.2 5`, que deverá mostrar `8.2`.
+
+> [Soluções](../solucoes/02_bases_cs/20.md)
+
+21 - Implementa o programa anterior de forma interativa em ciclo. O programa
+deve solicitar a operação e os dois argumentos ao utilizador, apresentar a
+o resultado e voltar a fazer novo pedido de operação. O programa deve terminar
+apenas quando o utilizador escrever `END` em qualquer uma das solicitações.
+Se o programa não reconhecer a operação, deve voltar a pedir a mesma ao
+utilizador. Ao terminar, o programa deve indicar ainda quantas operações
+realizou.
+
+**Pontos extra:** Como detetar e recuperar de um valor que não seja possível
+converter para `double`?
+
+> [Soluções](../solucoes/02_bases_cs/21.md)
+
+22 - Implementa um jogo _turn-based_, com o número máximo de _turns_ dado como
+argumento na linha de comando. O jogo deve decorrer em quanto o jogador estiver
+vivo e enquanto o número máximo de _turns_ não tiver sido atingido. Em cada
+_turn_ o jogador tem uma probabilidade de morrer de 2%. Se o jogador não morrer
+numa dada _turn_, deve ser apresentada a mensagem `Player has survided turn #3`
+(substituir 3 pela pela _turn_ atual). Contrário, deve ser apresentada a
+mensagem `Player died after 10 _turns_` (substituir 10 pela _turn_ em que o
+jogador efetivamente morreu).
+_Nota 1_: O "jogo" não é interativo, simplesmente apresenta uma mensagem por
+_turn_.
+_Nota 2_: Podem ser obtidos números aleatórios entre 0 e 1 usando o método
+[NextDouble](https://docs.microsoft.com/pt-pt/dotnet/api/system.random.nextdouble)
+da classe [Random]:https://docs.microsoft.com/pt-pt/dotnet/api/system.random
+(_namespace_ `System`) da seguinte forma:
+
+```cs
+// Criar objecto do tipo Random
+Random rng = new Random();
+// Obter double entre 0 e 1
+double probability = rng.NextDouble()
+```
+> [Soluções](../solucoes/02_bases_cs/22.md)
+
+23 - Escreve um programa que solicite um número de linhas ao utilizador e
+imprima um losango com números indicando o número da linha do losango. Por
+exemplo, se o utilizador inserir o número 4, deve ser impresso o seguinte
+losango:
+
+```
+   1
+  222
+ 33333
+4444444
+ 33333
+  222
+   1
+```
+
+Se o utilizador inserir um valor superior a 9 o programa deve terminar com uma
+mensagem de erro.
+
+> [Soluções](../solucoes/02_bases_cs/23.md)
+
+24 - Escreve um programa que aceite dois ou mais números inteiros como
+parâmetros na linha de comandos, coloque esses números num _array_ de _int_s e
+apresente ao utilizador um menu com as seguintes opções:
+
+1. Obter média dos valores no _array_
+2. Obter mediana dos valores no _array_
+3. Obter moda dos valores no _array_
+4. Obter máximo dos valores no _array_
+5. Obter mínimo dos valores _no_array_
+6. Sair
+
+O programa deve funcionar em ciclo até o utilizador selecionar a opção 6.
+
+> [Soluções](../solucoes/02_bases_cs/24.md)
+
+25 - Exercício sobre _arrays_ de _arrays_ (em breve).
+
+> [Soluções](../solucoes/02_bases_cs/25.md)
+
+26 - Exercício sobre _arrays_ multidimensionais (em breve).
+
+> [Soluções](../solucoes/02_bases_cs/26.md)
+
+27 - Exercício sobre enumerações (em breve).
+
+> [Soluções](../solucoes/02_bases_cs/27.md)
+
+28 - Exercício sobre _enumeration flags_ (em breve).
+
+> [Soluções](../solucoes/02_bases_cs/28.md)
+
+29 - Exercício teórico sobre métodos (em breve).
+
+> [Soluções](../solucoes/02_bases_cs/29.md)
+
+30 - Métodos: criar documentação XML para o seguinte método (em breve).
+
+```cs
+// Em breve
+```
+
+> [Soluções](../solucoes/02_bases_cs/30.md)
+
+31 - Exercício prático sobre métodos, reescrever método anterior segundo boas
+práticas, nomeadamente apenas um `return` e ciclos sem _break_ ou _continue_
+(em breve).
+
+> [Soluções](../solucoes/02_bases_cs/31.md)
+
+32 - Exercício sobre _overloading_ de métodos (em breve).
+
+> [Soluções](../solucoes/02_bases_cs/32.md)
+
+33 - Exercício sobre recursão, indicar o que é impresso (em breve).
+
+> [Soluções](../solucoes/02_bases_cs/33.md)
+
+34 - Temos um triângulo feito de blocos. A primeira linha do triângulo tem 1
 bloco, a segunda linha tem 2 blocos, a terceira linha tem 3 blocos, e por ai
 fora. Completa o método `Triang`, que, dado o número de linhas, determina
 recursivamente (sem ciclos ou multiplicações) o número total de blocos num
@@ -176,4 +320,4 @@ static int Triangle(int linhas)
 }
 ```
 
-> [Soluções](../solucoes/02_bases_cs/18.md)
+> [Soluções](../solucoes/02_bases_cs/34.md)
