@@ -91,7 +91,9 @@ Console.WriteLine($@"\n{c}\n");
 > [Soluções](../solucoes/02_bases_cs/09.md)
 
 10 - Escreve um programa que leia texto inserido pelo utilizador e de seguida,
-o mostre no ecrã. _Sugerido por [Gabriel Nunes](https://github.com/twinventur)._
+o mostre no ecrã.
+
+*Sugerido por [Gabriel Nunes](https://github.com/twinventur).*
 
 > [Soluções](../solucoes/02_bases_cs/10.md)
 
