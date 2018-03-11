@@ -173,7 +173,7 @@ ternário para implementar o programa.
 20 - Escreve um programa que sirva como calculadora de linha de comandos,
 aceitando três argumentos: 1) a operação a realizar; 2) o primeiro operando; e,
 3) o segundo operando. A calculadora deve reconhecer as seguintes operações
-indicadas no primeiro argumento: `+`, `-`, `/`, `*` e `**` (sendo que última
+indicadas no primeiro argumento: `+`, `-`, `/`, `x` e `p` (sendo que última
 representa a operação de potenciação). A calculadora deve realizar a operação
 entre os dois operandos (que se podem assumir como `doubles`), mostrar o
 resultado e terminar a execução. Se não forem indicados três argumentos, ou se
@@ -320,8 +320,8 @@ static int RockPaperScissors(int player1, int player2)
     }
     else
     {
-		return 2; // Player 2 wins
-	}
+        return 2; // Player 2 wins
+    }
 }
 ```
 
