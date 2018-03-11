@@ -102,7 +102,8 @@ apresente a sua soma.
 
 12 - Escreve um programa que solicite ao utilizador dois números reais de 64
 bits e apresente o resultado do primeiro (base) elevado ao segundo (expoente).
-Sugestão: o método [`Math.Pow(x, y)`](https://docs.microsoft.com/pt-pt/dotnet/api/system.math.pow?view=netstandard-2.0#System_Math_Pow_System_Double_System_Double_)
+Sugestão: o método
+[`Math.Pow(x, y)`](https://docs.microsoft.com/pt-pt/dotnet/api/system.math.pow?view=netstandard-2.0#System_Math_Pow_System_Double_System_Double_)
 realiza a operação de potenciação _x<sup>y</sup>_.
 
 > [Soluções](../solucoes/02_bases_cs/12.md)
@@ -110,6 +111,7 @@ realiza a operação de potenciação _x<sup>y</sup>_.
 13 - Escreve um programa que leia uma _string_ introduzida pelo utilizador, e de
 seguida mostre no ecrã os seus caracteres individuais pela ordem contrária. Por
 exemplo, ao ler a _string_ "Ola Mundo!", iria mostrar "!odnuM alO".
+
 *Sugerido por [João Duarte](https://github.com/JoaoAlexandreDuarte)*
 
 > [Soluções](../solucoes/02_bases_cs/13.md)
@@ -118,6 +120,7 @@ exemplo, ao ler a _string_ "Ola Mundo!", iria mostrar "!odnuM alO".
 seguida mostre no ecrã a(s) letra(s) do meio. Por exemplo, caso seja ímpar, ao
 ler a _string_ "12345", iria mostrar "3", no entanto se for par, ao ler a
 _string_ "String", iria mostrar "ri".
+
 *Sugerido por [João Duarte](https://github.com/JoaoAlexandreDuarte), adaptado de
 http://codingbat.com/prob/p137729.*
 
@@ -132,6 +135,7 @@ linha de comandos.
 apresente no ecrã "True" se for possível adicionar dois dos números para obter
 o terceiro, ou apresente "False" se não for. Por exemplo, ao receber "1", "2", e
 "3" iria mostrar "True" pois é possível somar 1 + 2 para obter 3.
+
 *Sugerido por [João Duarte](https://github.com/JoaoAlexandreDuarte), adaptado de
 http://codingbat.com/prob/p113261.*
 
@@ -143,6 +147,7 @@ vai mostrar no ecrã "6!" . No entanto, se o número for divisível por 3 vai
 mostrar "Fizz!", se for divisível por 5 vai mostrar "Buzz!", e se for
 divisível por 3 e por 5 mostra "FizzBuzz!" Sugestão: o operador `%` permite
 obter o resto da divisão para calcular se é divisível.
+
 *Sugerido por [João Duarte](https://github.com/JoaoAlexandreDuarte), adaptado de
 http://codingbat.com/prob/p115243.*
 
@@ -192,7 +197,11 @@ converter para `double`?
 
 > [Soluções](../solucoes/02_bases_cs/21.md)
 
-22 - Implementa um jogo _turn-based_, com o número máximo de _turns_ dado como
+22 - Reescrever ciclo sem `breaks` e `continues` (em breve).
+
+> [Soluções](../solucoes/02_bases_cs/22.md)
+
+23 - Implementa um jogo _turn-based_, com o número máximo de _turns_ dado como
 argumento na linha de comando. O jogo deve decorrer em quanto o jogador estiver
 vivo e enquanto o número máximo de _turns_ não tiver sido atingido. Em cada
 _turn_ o jogador tem uma probabilidade de morrer de 2%. Se o jogador não morrer
@@ -207,7 +216,8 @@ _turn_.
 _Nota 2_: Podem ser obtidos números aleatórios entre 0 e 1 usando o método
 [NextDouble](https://docs.microsoft.com/pt-pt/dotnet/api/system.random.nextdouble)
 da classe [Random](https://docs.microsoft.com/pt-pt/dotnet/api/system.random)
-(_namespace_ `System`) da seguinte forma:
+(_namespace_ [System](https://docs.microsoft.com/pt-pt/dotnet/api/system)) da
+seguinte forma:
 
 ```cs
 // Criar objecto do tipo Random
@@ -215,9 +225,9 @@ Random rng = new Random();
 // Obter double entre 0 e 1
 double probability = rng.NextDouble();
 ```
-> [Soluções](../solucoes/02_bases_cs/22.md)
+> [Soluções](../solucoes/02_bases_cs/23.md)
 
-23 - Escreve um programa que solicite um número de linhas ao utilizador e
+24 - Escreve um programa que solicite um número de linhas ao utilizador e
 imprima um losango com números indicando o número da linha do losango. Por
 exemplo, se o utilizador inserir o número 4, deve ser impresso o seguinte
 losango:
@@ -235,9 +245,9 @@ losango:
 Se o utilizador inserir um valor superior a 9 o programa deve terminar com uma
 mensagem de erro.
 
-> [Soluções](../solucoes/02_bases_cs/23.md)
+> [Soluções](../solucoes/02_bases_cs/24.md)
 
-24 - Escreve um programa que aceite dois ou mais números inteiros como
+25 - Escreve um programa que aceite dois ou mais números inteiros como
 parâmetros na linha de comandos, coloque esses números num _array_ de `ints` e
 apresente ao utilizador um menu com as seguintes opções:
 
@@ -251,51 +261,98 @@ apresente ao utilizador um menu com as seguintes opções:
 O programa deve funcionar em ciclo, realizando os pedidos efetuados, terminando
 apenas quando o utilizador selecionar a opção 6.
 
-> [Soluções](../solucoes/02_bases_cs/24.md)
-
-25 - Exercício sobre _arrays_ de _arrays_ (em breve).
-
 > [Soluções](../solucoes/02_bases_cs/25.md)
 
-26 - Exercício sobre _arrays_ multidimensionais (em breve).
+26 - Exercício sobre _arrays_ de _arrays_ (em breve).
 
 > [Soluções](../solucoes/02_bases_cs/26.md)
 
-27 - Exercício sobre enumerações (em breve).
+27 - Exercício sobre _arrays_ multidimensionais (em breve).
 
 > [Soluções](../solucoes/02_bases_cs/27.md)
 
-28 - Exercício sobre _enumeration flags_ (em breve).
+28 - Exercício sobre enumerações (em breve).
 
 > [Soluções](../solucoes/02_bases_cs/28.md)
 
-29 - Exercício teórico sobre métodos (em breve).
+29 - Exercício sobre _enumeration flags_ (em breve).
 
 > [Soluções](../solucoes/02_bases_cs/29.md)
 
-30 - Métodos: criar documentação XML para o seguinte método (em breve).
+30 - Considera a seguinte declaração do método
+[Next](https://docs.microsoft.com/pt-pt/dotnet/api/system.random.next#System_Random_Next_System_Int32_System_Int32_)
+(classe [Random](https://docs.microsoft.com/pt-pt/dotnet/api/system.random),
+_namespace_ [System](https://docs.microsoft.com/pt-pt/dotnet/api/system)):
 
 ```cs
-// Em breve
+public virtual int Next (int minValue, int maxValue);
 ```
+
+Indica:
+
+1. O nome do método.
+2. O tipo devolvido pelo método.
+3. Os argumentos aceites pelo método.
+4. A assinatura do método.
+5. Outras características indicadas na declaração.
+6. Se existe algum _overloading_ deste método na classe
+[Random](https://docs.microsoft.com/pt-pt/dotnet/api/system.random), e em caso
+afirmativo, mostrar as respetivas declarações.
 
 > [Soluções](../solucoes/02_bases_cs/30.md)
 
-31 - Exercício prático sobre métodos, reescrever método anterior segundo boas
-práticas, nomeadamente apenas um `return` e ciclos sem _break_ ou _continue_
-(em breve).
+31 - Escreve documentação em formato XML para o método `RockPaperScissors`
+apresentado em baixo, seguindo as melhores práticas para o efeito. Os valores
+`ROCK`, `PAPER` e `SCISSORS` devem ser considerados como constantes inteiras.
+
+```cs
+static int RockPaperScissors(int player1, int player2)
+{
+    if (player1 == player2)
+    {
+        return 0; // Draw
+    }
+    if (((player1 == ROCK) && (player2 == SCISSORS)) ||
+        ((player1 == SCISSORS) && (player2 == PAPER)) ||
+        ((player1 == PAPER) && (player2 == ROCK)))
+    {
+        return 1; // Player 1 wins
+    }
+    else
+    {
+		return 2; // Player 2 wins
+	}
+}
+```
 
 > [Soluções](../solucoes/02_bases_cs/31.md)
 
-32 - Exercício sobre _overloading_ de métodos (em breve).
+32 - 1) Reescreve o método `RockPaperScissors` de modo a que siga as melhores
+práticas de legibilidade de código, nomeadamente que tenha apenas um único
+`return` no fim. 2) Escreve um método `Main` para testar o método
+`RockPaperScissors`, nomeadamente pedindo ao jogador um para selecionar uma
+opção (`ROCK`, `PAPER` ou `SCISSORS`), ao jogador dois para fazer o mesmo, e
+apresentando depois o resultado do jogo. 3) Integra os métodos `Main` e
+`RockPaperScissors` numa classe chamada `RPSGame`, _namespace_ `LP1Exercises`.
 
 > [Soluções](../solucoes/02_bases_cs/32.md)
 
-33 - Exercício sobre recursão, indicar o que é impresso (em breve).
+33 - Melhora a legibilidade do código do exercício anterior criando duas
+enumerações, uma para indicar o resultado do jogo, outra para definir as
+possíveis jogadas. Mostra o código completo das enumerações criadas e da classe
+`RPSGame`, todas dentro do _namespace_ `LP1Exercises`.
 
 > [Soluções](../solucoes/02_bases_cs/33.md)
 
-34 - Temos um triângulo feito de blocos. A primeira linha do triângulo tem 1
+34 - Exercício sobre _overloading_ de métodos (em breve).
+
+> [Soluções](../solucoes/02_bases_cs/34.md)
+
+35 - Exercício sobre recursão, indicar o que é impresso (em breve).
+
+> [Soluções](../solucoes/02_bases_cs/35.md)
+
+36 - Temos um triângulo feito de blocos. A primeira linha do triângulo tem 1
 bloco, a segunda linha tem 2 blocos, a terceira linha tem 3 blocos, e por ai
 fora. Completa o método `Triang`, que, dado o número de linhas, determina
 recursivamente (sem ciclos ou multiplicações) o número total de blocos num
@@ -313,6 +370,7 @@ Total 10 blocos
 De modo a testares o método, cria posteriormente um programa que solicite um
 número inteiro ao utilizador, invoque o método `Triang` e imprima no ecrã o
 número devolvido.
+
 *Sugerido por [João Duarte](https://github.com/JoaoAlexandreDuarte), adaptado de
 http://codingbat.com/prob/p194781.*
 
@@ -323,4 +381,4 @@ static int Triangle(int linhas)
 }
 ```
 
-> [Soluções](../solucoes/02_bases_cs/34.md)
+> [Soluções](../solucoes/02_bases_cs/36.md)
