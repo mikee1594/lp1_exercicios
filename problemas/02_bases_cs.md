@@ -119,7 +119,7 @@ seguida mostre no ecrã a(s) letra(s) do meio. Por exemplo, caso seja ímpar, ao
 ler a _string_ "12345", iria mostrar "3", no entanto se for par, ao ler a
 _string_ "String", iria mostrar "ri".
 *Sugerido por [João Duarte](https://github.com/JoaoAlexandreDuarte), adaptado de
-codingbat.com/prob/p137729.*
+http://codingbat.com/prob/p137729.*
 
 > [Soluções](../solucoes/02_bases_cs/14.md)
 
@@ -133,7 +133,7 @@ apresente no ecrã "True" se for possível adicionar dois dos números para obte
 o terceiro, ou apresente "False" se não for. Por exemplo, ao receber "1", "2", e
 "3" iria mostrar "True" pois é possível somar 1 + 2 para obter 3.
 *Sugerido por [João Duarte](https://github.com/JoaoAlexandreDuarte), adaptado de
-codingbat.com/prob/p113261.*
+http://codingbat.com/prob/p113261.*
 
 > [Soluções](../solucoes/02_bases_cs/16.md)
 
@@ -144,11 +144,11 @@ mostrar "Fizz!", se for divisível por 5 vai mostrar "Buzz!", e se for
 divisível por 3 e por 5 mostra "FizzBuzz!" Sugestão: o operador `%` permite
 obter o resto da divisão para calcular se é divisível.
 *Sugerido por [João Duarte](https://github.com/JoaoAlexandreDuarte), adaptado de
-codingbat.com/prob/p115243.*
+http://codingbat.com/prob/p115243.*
 
 > [Soluções](../solucoes/02_bases_cs/17.md)
 
-18 - Escreve um programa que solicite ao utilizador a uma frase. Se a respetiva
+18 - Escreve um programa que solicite ao utilizador uma frase. Se a respetiva
 _string_ tiver mais de 20 caracteres, o programa deve mostrar no ecrã `Too long
 to read`. Se a _string_ tiver entre 5 a 20 caracteres, deve mostrar no ecrã
 `Ok, if you say so.`. Se a _string_ tiver menos de 5 caracteres, o programa
@@ -170,16 +170,16 @@ aceitando três argumentos: 1) a operação a realizar; 2) o primeiro operando; 
 3) o segundo operando. A calculadora deve reconhecer as seguintes operações
 indicadas no primeiro argumento: `+`, `-`, `/`, `*` e `**` (sendo que última
 representa a operação de potenciação). A calculadora deve realizar a operação
-entre os operandos (que se podem assumir como `double`s), mostrar o resultado e
-terminar a execução. Se não forem indicados três argumentos, ou se a operação
-não for conhecida, o programa deve terminar com uma mensagem de erro
+entre os dois operandos (que se podem assumir como `doubles`), mostrar o
+resultado e terminar a execução. Se não forem indicados três argumentos, ou se
+a operação não for conhecida, o programa deve terminar com uma mensagem de erro
 apropriada.
 
-Exemplo de execução: `Calc.exe + 3.2 5`, que deverá mostrar `8.2`.
+Exemplo de execução: `./Calc.exe + 3.2 5`, que deverá mostrar `8.2`.
 
 > [Soluções](../solucoes/02_bases_cs/20.md)
 
-21 - Implementa o programa anterior de forma interativa em ciclo. O programa
+21 - Implementa o programa anterior de forma interativa e em ciclo. O programa
 deve solicitar a operação e os dois argumentos ao utilizador, apresentar a
 o resultado e voltar a fazer novo pedido de operação. O programa deve terminar
 apenas quando o utilizador escrever `END` em qualquer uma das solicitações.
@@ -197,21 +197,23 @@ argumento na linha de comando. O jogo deve decorrer em quanto o jogador estiver
 vivo e enquanto o número máximo de _turns_ não tiver sido atingido. Em cada
 _turn_ o jogador tem uma probabilidade de morrer de 2%. Se o jogador não morrer
 numa dada _turn_, deve ser apresentada a mensagem `Player has survided turn #3`
-(substituir 3 pela pela _turn_ atual). Contrário, deve ser apresentada a
-mensagem `Player died after 10 _turns_` (substituir 10 pela _turn_ em que o
+(substituir 3 pela pela _turn_ atual). Caso contrário, deve ser apresentada a
+mensagem `Player died after 10 turns` (substituir 10 pela _turn_ em que o
 jogador efetivamente morreu).
+
 _Nota 1_: O "jogo" não é interativo, simplesmente apresenta uma mensagem por
 _turn_.
+
 _Nota 2_: Podem ser obtidos números aleatórios entre 0 e 1 usando o método
 [NextDouble](https://docs.microsoft.com/pt-pt/dotnet/api/system.random.nextdouble)
-da classe [Random]:https://docs.microsoft.com/pt-pt/dotnet/api/system.random
+da classe [Random](https://docs.microsoft.com/pt-pt/dotnet/api/system.random)
 (_namespace_ `System`) da seguinte forma:
 
 ```cs
 // Criar objecto do tipo Random
 Random rng = new Random();
 // Obter double entre 0 e 1
-double probability = rng.NextDouble()
+double probability = rng.NextDouble();
 ```
 > [Soluções](../solucoes/02_bases_cs/22.md)
 
@@ -236,7 +238,7 @@ mensagem de erro.
 > [Soluções](../solucoes/02_bases_cs/23.md)
 
 24 - Escreve um programa que aceite dois ou mais números inteiros como
-parâmetros na linha de comandos, coloque esses números num _array_ de _int_s e
+parâmetros na linha de comandos, coloque esses números num _array_ de `ints` e
 apresente ao utilizador um menu com as seguintes opções:
 
 1. Obter média dos valores no _array_
@@ -246,7 +248,8 @@ apresente ao utilizador um menu com as seguintes opções:
 5. Obter mínimo dos valores _no_array_
 6. Sair
 
-O programa deve funcionar em ciclo até o utilizador selecionar a opção 6.
+O programa deve funcionar em ciclo, realizando os pedidos efetuados, terminando
+apenas quando o utilizador selecionar a opção 6.
 
 > [Soluções](../solucoes/02_bases_cs/24.md)
 
@@ -311,7 +314,7 @@ De modo a testares o método, cria posteriormente um programa que solicite um
 número inteiro ao utilizador, invoque o método `Triang` e imprima no ecrã o
 número devolvido.
 *Sugerido por [João Duarte](https://github.com/JoaoAlexandreDuarte), adaptado de
-codingbat.com/prob/p194781.*
+http://codingbat.com/prob/p194781.*
 
 ```cs
 static int Triangle(int linhas)
