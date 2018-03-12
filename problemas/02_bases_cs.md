@@ -603,7 +603,8 @@ Considera a seguinte invocação do método `Recursao()`:
 int n0 = Recursao(5);
 ```
 
-Qual é o valor da variável `n0` após a linha de código anterior?
+Qual é o valor da variável `n0` após a linha de código anterior? Explica o teu
+raciocínio.
 
 _Nota 1_: O método
 [Abs](https://docs.microsoft.com/pt-pt/dotnet/api/system.math.abs#System_Math_Abs_System_Int32_)
