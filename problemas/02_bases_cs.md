@@ -351,7 +351,37 @@ breve)
 
 > [Soluções](../solucoes/02_bases_cs/29.md)
 
-30 - Exercício sobre _enumeration flags_ (em breve).
+30 - Escreve um programa que crie aleatoriamente um mundo de jogo _tile-based_
+2D e o mostre no ecrã. O tamanho do mundo, `x` e `y`, deve ser indicado sob a
+forma de argumentos na linha de comandos. Cada célula (quadrado ou posição) do
+mundo de jogo pode ter, cumulativamente e com a probabilidade indicada, os
+seguintes items:
+
+* Comida - 1,0%
+* Armas - 0,5%
+* Inimigo - 0,5%
+* Armadilha - 0,3%
+
+Os items devem ser representados com _enumerable flags_ (opções enumeráveis),
+assim como as suas combinações. Espaços vazios devem ser representados com um
+espaço, e as várias combinações de items devem ser representados com o caracter
+ASCII obtido pela soma do valor ASCII do espaço (0x20) com o valor numérico do
+item ou combinação de items enumerados. Por exemplo, a comida é representada
+com o carácter `!` (ASCII 0x21), e a combinação de inimigo e armadilha é
+representada com o carácter `,` (ASCII 0x2C).
+
+_Nota 1_: Podem ser obtidos números aleatórios entre 0 e 1 usando o método
+[NextDouble](https://docs.microsoft.com/pt-pt/dotnet/api/system.random.nextdouble)
+da classe [Random](https://docs.microsoft.com/pt-pt/dotnet/api/system.random)
+(_namespace_ [System](https://docs.microsoft.com/pt-pt/dotnet/api/system)) da
+seguinte forma:
+
+```cs
+// Criar objecto do tipo Random
+Random rng = new Random();
+// Obter double entre 0 e 1
+double probability = rng.NextDouble();
+```
 
 > [Soluções](../solucoes/02_bases_cs/30.md)
 
