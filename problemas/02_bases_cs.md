@@ -555,7 +555,29 @@ possíveis jogadas. Mostra o código completo das enumerações criadas e da cla
 
 ---
 
-35 - Exercício sobre _overloading_ de métodos (em breve).
+35 - Considera as seguintes enumerações:
+
+```cs
+enum Terrain
+{
+    Rock = 0,
+    Plains,
+    Forest,
+    Jungle
+}
+enum BonusTerrain
+{
+    Water = 1,
+    Food
+}
+```
+
+Escreve dois métodos _overloaded_ chamados `Eat()`, um que aceite um `Terrain`
+e devolva o valor numérico do respetivo membro da enumeração `Terrain`, e outro
+que aceite um `BonusTerrain` e devolva o valor numérico do respetivo membro da
+enumeração `BonusTerrain` multiplicado por 10. Coloca os 2 métodos como
+`static` numa classe chamada `Grazer` (_namespace_ `LP1Exercises`), e escreve
+um método `Main` para testar os métodos que criaste.
 
 > [Soluções](../solucoes/02_bases_cs/35.md)
 
