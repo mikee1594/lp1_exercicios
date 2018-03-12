@@ -370,7 +370,14 @@ item ou combinação de items enumerados. Por exemplo, a comida é representada
 com o carácter `!` (ASCII 0x21), e a combinação de inimigo e armadilha é
 representada com o carácter `,` (ASCII 0x2C).
 
-_Nota 1_: Podem ser obtidos números aleatórios entre 0 e 1 usando o método
+_Nota 1_: A tabela ASCII pode ser consultada [aqui](https://www.asciitable.com/).
+
+_Nota 2_: Pode facilitar a resolução do problema fazer _debugging_ imprimindo
+no ecrã os conteúdos detalhados de cada posição do mundo de jogo, por exemplo
+para a posição (5,3) pode ser impresso `(5,3) contem 'Comida, Inimigo',
+caracter %`.
+
+_Nota 3_: Podem ser obtidos números aleatórios entre 0 e 1 usando o método
 [NextDouble](https://docs.microsoft.com/pt-pt/dotnet/api/system.random.nextdouble)
 da classe [Random](https://docs.microsoft.com/pt-pt/dotnet/api/system.random)
 (_namespace_ [System](https://docs.microsoft.com/pt-pt/dotnet/api/system)) da
