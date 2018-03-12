@@ -10,6 +10,8 @@ a &= 0x0F0F;
 
 > [Soluções](../solucoes/02_bases_cs/01.md)
 
+---
+
 2 - Qual o valor hexadecimal da variável `a` após a execução do seguinte código
 C#? E o valor em binário? Justifica a tua resposta.
 
@@ -19,6 +21,8 @@ a |= 0x0F0F;
 ```
 
 > [Soluções](../solucoes/02_bases_cs/02.md)
+
+---
 
 3 - Qual o valor hexadecimal da variável `a` após a execução do seguinte código
 C#? E o valor em decimal? Justifica a tua resposta.
@@ -30,6 +34,8 @@ a ^= 0x0F;
 
 > [Soluções](../solucoes/02_bases_cs/03.md)
 
+---
+
 4 - Indica o que é mostrado no ecrã pelo seguinte código C#. Justifica a tua
 resposta.
 
@@ -39,6 +45,8 @@ Console.WriteLine(n + 1);
 ```
 
 > [Soluções](../solucoes/02_bases_cs/04.md)
+
+---
 
 5 - Indica o que é mostrado no ecrã pelo seguinte código C#. Justifica a tua
 resposta.
@@ -50,6 +58,8 @@ Console.WriteLine(~n);
 
 > [Soluções](../solucoes/02_bases_cs/05.md)
 
+---
+
 6 - Indica o que é mostrado no ecrã pelo seguinte código C#. Justifica a tua
 resposta.
 
@@ -59,6 +69,8 @@ Console.WriteLine($"{a & 0x000F}");
 ```
 
 > [Soluções](../solucoes/02_bases_cs/06.md)
+
+---
 
 7 - Indica o que é mostrado no ecrã pelo seguinte código C#. Justifica a tua
 resposta.
@@ -70,6 +82,8 @@ Console.WriteLine($"*\t{s}\t*");
 
 > [Soluções](../solucoes/02_bases_cs/07.md)
 
+---
+
 8 - Indica o que é mostrado no ecrã pelo seguinte código C#. Justifica a tua
 resposta.
 
@@ -79,6 +93,8 @@ Console.WriteLine(@"\\{x}\\:" + x);
 ```
 
 > [Soluções](../solucoes/02_bases_cs/08.md)
+
+---
 
 9 - Indica o que é mostrado no ecrã pelo seguinte código C#. Justifica a tua
 resposta.
@@ -90,6 +106,8 @@ Console.WriteLine($@"\n{c}\n");
 
 > [Soluções](../solucoes/02_bases_cs/09.md)
 
+---
+
 10 - Escreve um programa que leia texto inserido pelo utilizador e de seguida,
 o mostre no ecrã.
 
@@ -97,10 +115,14 @@ o mostre no ecrã.
 
 > [Soluções](../solucoes/02_bases_cs/10.md)
 
+---
+
 11 - Escreve um programa que solicite ao utilizador dois números inteiros e
 apresente a sua soma.
 
 > [Soluções](../solucoes/02_bases_cs/11.md)
+
+---
 
 12 - Escreve um programa que solicite ao utilizador dois números reais de 64
 bits e apresente o resultado do primeiro (base) elevado ao segundo (expoente).
@@ -110,6 +132,8 @@ realiza a operação de potenciação _x<sup>y</sup>_.
 
 > [Soluções](../solucoes/02_bases_cs/12.md)
 
+---
+
 13 - Escreve um programa que leia uma _string_ introduzida pelo utilizador, e de
 seguida mostre no ecrã os seus caracteres individuais pela ordem contrária. Por
 exemplo, ao ler a _string_ "Ola Mundo!", iria mostrar "!odnuM alO".
@@ -117,6 +141,8 @@ exemplo, ao ler a _string_ "Ola Mundo!", iria mostrar "!odnuM alO".
 *Sugerido por [João Duarte](https://github.com/JoaoAlexandreDuarte)*
 
 > [Soluções](../solucoes/02_bases_cs/13.md)
+
+---
 
 14 - Escreve um programa que leia uma _string_ introduzida pelo utilizador, e de
 seguida mostre no ecrã a(s) letra(s) do meio. Por exemplo, caso seja ímpar, ao
@@ -128,10 +154,14 @@ http://codingbat.com/prob/p137729.*
 
 > [Soluções](../solucoes/02_bases_cs/14.md)
 
+---
+
 15 - Escreve um programa que mostre no ecrã todos os argumentos passados na
 linha de comandos.
 
 > [Soluções](../solucoes/02_bases_cs/15.md)
+
+---
 
 16 - Escreve um programa que solicite ao utilizador três números inteiros e
 apresente no ecrã "True" se for possível adicionar dois dos números para obter
@@ -142,6 +172,8 @@ o terceiro, ou apresente "False" se não for. Por exemplo, ao receber "1", "2", 
 http://codingbat.com/prob/p113261.*
 
 > [Soluções](../solucoes/02_bases_cs/16.md)
+
+---
 
 17 - Escreve um programa que solicite ao utilizador um número inteiro e imprima
 o número seguido de um ponto de exclamação. Por exemplo, ao ler o número seis,
@@ -155,6 +187,8 @@ http://codingbat.com/prob/p115243.*
 
 > [Soluções](../solucoes/02_bases_cs/17.md)
 
+---
+
 18 - Escreve um programa que solicite ao utilizador uma frase. Se a respetiva
 _string_ tiver mais de 20 caracteres, o programa deve mostrar no ecrã `Too long
 to read`. Se a _string_ tiver entre 5 a 20 caracteres, deve mostrar no ecrã
@@ -162,6 +196,8 @@ to read`. Se a _string_ tiver entre 5 a 20 caracteres, deve mostrar no ecrã
 deve mostrar no ecrã `That's not very meaningful, is it?`.
 
 > [Soluções](../solucoes/02_bases_cs/18.md)
+
+---
 
 19 - Escreve um programa que solicite ao utilizador dois números reais: o
 primeiro deve representar o _high score_ atual num jogo, e o segundo deve
@@ -171,6 +207,8 @@ jogador for superior ao _high score_, o programa deve mostrar a mensagem
 ternário para implementar o programa.
 
 > [Soluções](../solucoes/02_bases_cs/19.md)
+
+---
 
 20 - Escreve um programa que sirva como calculadora de linha de comandos,
 aceitando três argumentos: 1) a operação a realizar; 2) o primeiro operando; e,
@@ -186,6 +224,8 @@ Exemplo de execução: `./Calc.exe + 3.2 5`, que deverá mostrar `8.2`.
 
 > [Soluções](../solucoes/02_bases_cs/20.md)
 
+---
+
 21 - Implementa o programa anterior de forma interativa e em ciclo. O programa
 deve solicitar a operação e os dois argumentos ao utilizador, apresentar a
 o resultado e voltar a fazer novo pedido de operação. O programa deve terminar
@@ -198,6 +238,8 @@ realizou.
 converter para `double`?
 
 > [Soluções](../solucoes/02_bases_cs/21.md)
+
+---
 
 22 - Reescreve o seguinte código sem usar `breaks` e `continues`.
 
@@ -226,6 +268,8 @@ Console.WriteLine($"Last turn was {turn}");
 
 > [Soluções](../solucoes/02_bases_cs/22.md)
 
+---
+
 23 - Implementa um jogo _turn-based_, com o número máximo de _turns_ dado como
 argumento na linha de comando. O jogo deve decorrer em quanto o jogador estiver
 vivo e enquanto o número máximo de _turns_ não tiver sido atingido. Em cada
@@ -252,6 +296,8 @@ double probability = rng.NextDouble();
 ```
 > [Soluções](../solucoes/02_bases_cs/23.md)
 
+---
+
 24 - Escreve um programa que solicite um número de linhas ao utilizador e
 imprima um losango com números indicando o número da linha do losango. Por
 exemplo, se o utilizador inserir o número 4, deve ser impresso o seguinte
@@ -272,6 +318,8 @@ mensagem de erro.
 
 > [Soluções](../solucoes/02_bases_cs/24.md)
 
+---
+
 25 - Escreve um programa que aceite dois ou mais números inteiros como
 parâmetros na linha de comandos, coloque esses números num _array_ de `ints` e
 apresente ao utilizador um menu com as seguintes opções:
@@ -287,6 +335,8 @@ O programa deve funcionar em ciclo, realizando os pedidos efetuados, terminando
 apenas quando o utilizador selecionar a opção 6.
 
 > [Soluções](../solucoes/02_bases_cs/25.md)
+
+---
 
 26 - Escreve um programa que solicite ao utilizador um número de frases, e
 depois peça ao utilizador para inserir cada uma das frases individualmente.
@@ -332,6 +382,8 @@ Frase 3:
 
 > [Soluções](../solucoes/02_bases_cs/26.md)
 
+---
+
 27 - Cria um jogo _tile-based_ e _turn-based_  no qual o jogador se move numa
 grelha 2D (não-toroidal, ou seja, com paredes nos limites do mundo). O jogador
 apenas se move para cima, para baixo e para os lados, usando as teclas WSAD. A
@@ -341,6 +393,8 @@ ecrã, com o jogador representado por uma arroba (`@`) e os espaços vazios
 representados por um ponto (`.`).
 
 > [Soluções](../solucoes/02_bases_cs/27.md)
+
+---
 
 28 - Escreve um programa que realize a multiplicação entre uma matriz _n x m_
 e um vetor _m x 1_. O programa deve começar por solicitar as dimensões _n_ e
@@ -359,6 +413,8 @@ _Nota 3:_ Podes experimentar multiplicar uma matriz por um vetor _online_ em
 http://matrix.reshish.com/multiplication.php.
 
 > [Soluções](../solucoes/02_bases_cs/28.md)
+
+---
 
 29 - Escreve um programa que: 1) liste todas as classes num jogo RPG; 2)
 solicite ao utilizador uma das classes (através do valor numérico do respetivo
@@ -380,6 +436,8 @@ _Referência:_ https://www.giantbomb.com/classes/3015-405/
 _Nota 1:_ Usar `switch` para selecionar a descrição a mostrar.
 
 > [Soluções](../solucoes/02_bases_cs/29.md)
+
+---
 
 30 - Escreve um programa que crie aleatoriamente um mundo de jogo _tile-based_
 2D e o mostre no ecrã. O tamanho do mundo, `x` e `y`, deve ser indicado sob a
@@ -422,6 +480,8 @@ double probability = rng.NextDouble();
 
 > [Soluções](../solucoes/02_bases_cs/30.md)
 
+---
+
 31 - Considera a seguinte declaração do método
 [Next](https://docs.microsoft.com/pt-pt/dotnet/api/system.random.next#System_Random_Next_System_Int32_System_Int32_)
 (classe [Random](https://docs.microsoft.com/pt-pt/dotnet/api/system.random),
@@ -443,6 +503,8 @@ Indica:
 afirmativo, mostrar as respetivas declarações.
 
 > [Soluções](../solucoes/02_bases_cs/31.md)
+
+---
 
 32 - Escreve documentação em formato XML para o método `RockPaperScissors`
 apresentado em baixo, seguindo as melhores práticas para o efeito. Os valores
@@ -470,6 +532,8 @@ static int RockPaperScissors(int player1, int player2)
 
 > [Soluções](../solucoes/02_bases_cs/32.md)
 
+---
+
 33 - 1) Reescreve o método `RockPaperScissors` de modo a que siga as melhores
 práticas de legibilidade de código, nomeadamente que tenha apenas um único
 `return` no fim. 2) Escreve um método `Main` para testar o método
@@ -480,6 +544,8 @@ apresentando depois o resultado do jogo. 3) Integra os métodos `Main` e
 
 > [Soluções](../solucoes/02_bases_cs/33.md)
 
+---
+
 34 - Melhora a legibilidade do código do exercício anterior criando duas
 enumerações, uma para indicar o resultado do jogo, outra para definir as
 possíveis jogadas. Mostra o código completo das enumerações criadas e da classe
@@ -487,9 +553,13 @@ possíveis jogadas. Mostra o código completo das enumerações criadas e da cla
 
 > [Soluções](../solucoes/02_bases_cs/34.md)
 
+---
+
 35 - Exercício sobre _overloading_ de métodos (em breve).
 
 > [Soluções](../solucoes/02_bases_cs/35.md)
+
+---
 
 36 - Considera o método `Recursao()`:
 
@@ -521,6 +591,8 @@ devolve o valor absoluto (módulo) do valor passado como argumento.
 
 > [Soluções](../solucoes/02_bases_cs/36.md)
 
+---
+
 37 - Temos um triângulo feito de blocos. A primeira linha do triângulo tem 1
 bloco, a segunda linha tem 2 blocos, a terceira linha tem 3 blocos, e por ai
 fora. Completa o método `Triang`, que, dado o número de linhas, determina
@@ -551,3 +623,5 @@ static int Triangle(int linhas)
 ```
 
 > [Soluções](../solucoes/02_bases_cs/37.md)
+
+---
