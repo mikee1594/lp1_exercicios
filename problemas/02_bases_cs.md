@@ -347,7 +347,24 @@ breve)
 
 > [Soluções](../solucoes/02_bases_cs/28.md)
 
-29 - Exercício sobre enumerações (em breve).
+29 - Escreve um programa que: 1) liste todas as classes num jogo RPG; 2)
+solicite ao utilizador uma das classes (através do valor numérico do respetivo
+membro da enumeração); e, 3) mostre uma descrição textual sobre essa classe. As
+classes existentes neste jogo, e as respetivas descrições, são:
+
+* **Warrior**: Melee hack-and-slash class.
+* **Knight**: Heavy armor class.
+* **Barbarian**: Big guy with an equally big weapon.
+* **Monk**: Melee class that forgoes weapons for their powerful fists.
+* **Archer**: Ranged class with bows or guns.
+* **Thief**: Sneaky bandit with itchy fingers and a nose for treasure.
+* **Priest**: Class who makes sure the party survives an encounter.
+* **Mage**: Class with spells to burn, freeze or electrify.
+* **Druid**: Class capable of summoning minions.
+
+_Referência:_ https://www.giantbomb.com/classes/3015-405/
+
+_Nota 1:_ Usar `switch` para selecionar a descrição a mostrar.
 
 > [Soluções](../solucoes/02_bases_cs/29.md)
 
