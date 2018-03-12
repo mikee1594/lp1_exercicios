@@ -199,7 +199,30 @@ converter para `double`?
 
 > [Soluções](../solucoes/02_bases_cs/21.md)
 
-22 - Reescrever ciclo sem `breaks` e `continues` (em breve).
+22 - Reescreve o seguinte código sem usar `breaks` e `continues`.
+
+```cs
+const int maxTurns = 20;
+int turn = 0;
+while (true)
+{
+    turn++;
+
+    if (turn >= maxTurns)
+    {
+        break;
+    }
+
+    if (turn % 3 == 0)
+    {
+        continue;
+    }
+
+    Console.WriteLine($"Turn number {turn}");
+}
+
+Console.WriteLine($"Last turn was {turn}");
+```
 
 > [Soluções](../solucoes/02_bases_cs/22.md)
 
