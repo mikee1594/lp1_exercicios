@@ -8,19 +8,27 @@ inicializado, que comandos Git são executados automaticamente em pano de fundo?
 
 > [Soluções](../solucoes/01_git/01.md)
 
+---
+
 2 - Como podes, dentro do Visual Studio 2017, inicializar um repositório Git
 num projeto já existente (criado sem repositório Git)? E usando o terminal?
 
 > [Soluções](../solucoes/01_git/02.md)
+
+---
 
 3 - Para que serve o ficheiro `.gitignore`? Explica o porquê deste ficheiro
 ser essencial num projeto em Visual Studio?
 
 > [Soluções](../solucoes/01_git/03.md)
 
+---
+
 4 - Para que serve o ficheiro `.gitattributes`?
 
 > [Soluções](../solucoes/01_git/04.md)
+
+---
 
 5 - O Git é especialmente adequado para controlar as versões de que tipo de
 ficheiros? Por outro lado, que tipo de ficheiros não é recomendável adicionar a
@@ -29,17 +37,23 @@ o desenvolvimento de vídeo jogos?
 
 > [Soluções](../solucoes/01_git/05.md)
 
+---
+
 6 - Quais são os comandos Git para especificares, de uma forma global, o teu
 **nome** e **email** para realização de *commits*? E caso queiras efetuar essa
 configuração apenas para um repositório?
 
 > [Soluções](../solucoes/01_git/06.md)
 
+---
+
 7 - Apresenta os conteúdos do ficheiro `.gitignore` quando pretendes evitar que
 os ficheiros com extensão `.exe`, `.dll`, `.jpg` e `.png` sejam adicionados ao
 repositório.
 
 > [Soluções](../solucoes/01_git/07.md)
+
+---
 
 8 - Escreve os comandos git para: 1) adicionar um repositório remoto chamado
 _origin_ com URL https://github.com/VideojogosLusofona/BestGameEver; 2) fazer
@@ -48,11 +62,15 @@ o repositório remoto _origin_ adicionado no ponto anterior.
 
 > [Soluções](../solucoes/01_git/08.md)
 
+---
+
 9 - Na sequência do exercício anterior, qual o comando git para alterar o nome
 do repositório conhecido como _origin_ para _secondary_? E se quiséssemos
 apenas mudar o URL para https://github.com/VideojogosLusofona/not-so-good-game?
 
 > [Soluções](../solucoes/01_git/09.md)
+
+---
 
 10 - Escreve os comandos git para: 1) alterar o nome do ficheiro `Programa.cs`
 para `Jogo.cs`; 2) fazer _commit_ da alteração efetuada, com uma mensagem de
@@ -60,3 +78,5 @@ _commit_ que siga as [melhores práticas](https://gist.github.com/robertpainsi/b
 para o efeito.
 
 > [Soluções](../solucoes/01_git/10.md)
+
+---
