@@ -342,8 +342,21 @@ representados por um ponto (`.`).
 
 > [Soluções](../solucoes/02_bases_cs/27.md)
 
-28 - Exercício sobre _arrays_ multidimensionais (multiplicação de matrizes, em
-breve)
+28 - Escreve um programa que realize a multiplicação entre uma matriz _n x m_
+e um vetor _m x 1_. O programa deve começar por solicitar as dimensões _n_ e
+_m_, pedindo depois ao utilizador que preencha os valores da matriz e do vetor
+a multiplicar, e finalmente mostrando o resultado final na forma de um vetor
+_n x 1_.
+
+_Nota 1:_ Este exercício deve ser resolvido com recurso a _arrays_
+multidimensionais.
+
+_Nota 2:_ A resolução deste exercício depende da matéria de
+[multiplicação de matrizes](https://mathinsight.org/matrix_vector_multiplication)
+(disciplina de Matemática II).
+
+_Nota 3:_ Podes experimentar multiplicar uma matriz por um vetor _online_ em
+http://matrix.reshish.com/multiplication.php.
 
 > [Soluções](../solucoes/02_bases_cs/28.md)
 
