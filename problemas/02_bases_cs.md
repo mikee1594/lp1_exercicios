@@ -332,25 +332,30 @@ Frase 3:
 
 > [Soluções](../solucoes/02_bases_cs/26.md)
 
-27 - Cria um jogo _tile-based_ e _turn-based_  em que o jogador se mova numa
+27 - Cria um jogo _tile-based_ e _turn-based_  no qual o jogador se move numa
 grelha 2D (não-toroidal, ou seja, com paredes nos limites do mundo). O jogador
 apenas se move para cima, para baixo e para os lados, usando as teclas WSAD. A
 tecla Q indica que o jogo terminou. A grelha deve ser representada como um
 _array_ bidimensional, e após cada _turn_ o mundo de jogo deve ser mostrado no
-ecrã, com jogador representado por uma arroba (`@`) e os espaços vazios
+ecrã, com o jogador representado por uma arroba (`@`) e os espaços vazios
 representados por um ponto (`.`).
 
 > [Soluções](../solucoes/02_bases_cs/27.md)
 
-28 - Exercício sobre enumerações (em breve).
+28 - Exercício sobre _arrays_ multidimensionais (multiplicação de matrizes, em
+breve)
 
 > [Soluções](../solucoes/02_bases_cs/28.md)
 
-29 - Exercício sobre _enumeration flags_ (em breve).
+29 - Exercício sobre enumerações (em breve).
 
 > [Soluções](../solucoes/02_bases_cs/29.md)
 
-30 - Considera a seguinte declaração do método
+30 - Exercício sobre _enumeration flags_ (em breve).
+
+> [Soluções](../solucoes/02_bases_cs/30.md)
+
+31 - Considera a seguinte declaração do método
 [Next](https://docs.microsoft.com/pt-pt/dotnet/api/system.random.next#System_Random_Next_System_Int32_System_Int32_)
 (classe [Random](https://docs.microsoft.com/pt-pt/dotnet/api/system.random),
 _namespace_ [System](https://docs.microsoft.com/pt-pt/dotnet/api/system)):
@@ -370,9 +375,9 @@ Indica:
 [Random](https://docs.microsoft.com/pt-pt/dotnet/api/system.random), e em caso
 afirmativo, mostrar as respetivas declarações.
 
-> [Soluções](../solucoes/02_bases_cs/30.md)
+> [Soluções](../solucoes/02_bases_cs/31.md)
 
-31 - Escreve documentação em formato XML para o método `RockPaperScissors`
+32 - Escreve documentação em formato XML para o método `RockPaperScissors`
 apresentado em baixo, seguindo as melhores práticas para o efeito. Os valores
 `ROCK`, `PAPER` e `SCISSORS` devem ser considerados como constantes inteiras.
 
@@ -396,9 +401,9 @@ static int RockPaperScissors(int player1, int player2)
 }
 ```
 
-> [Soluções](../solucoes/02_bases_cs/31.md)
+> [Soluções](../solucoes/02_bases_cs/32.md)
 
-32 - 1) Reescreve o método `RockPaperScissors` de modo a que siga as melhores
+33 - 1) Reescreve o método `RockPaperScissors` de modo a que siga as melhores
 práticas de legibilidade de código, nomeadamente que tenha apenas um único
 `return` no fim. 2) Escreve um método `Main` para testar o método
 `RockPaperScissors`, nomeadamente pedindo ao jogador um para selecionar uma
@@ -406,24 +411,24 @@ opção (`ROCK`, `PAPER` ou `SCISSORS`), ao jogador dois para fazer o mesmo, e
 apresentando depois o resultado do jogo. 3) Integra os métodos `Main` e
 `RockPaperScissors` numa classe chamada `RPSGame`, _namespace_ `LP1Exercises`.
 
-> [Soluções](../solucoes/02_bases_cs/32.md)
+> [Soluções](../solucoes/02_bases_cs/33.md)
 
-33 - Melhora a legibilidade do código do exercício anterior criando duas
+34 - Melhora a legibilidade do código do exercício anterior criando duas
 enumerações, uma para indicar o resultado do jogo, outra para definir as
 possíveis jogadas. Mostra o código completo das enumerações criadas e da classe
 `RPSGame`, todas dentro do _namespace_ `LP1Exercises`.
 
-> [Soluções](../solucoes/02_bases_cs/33.md)
-
-34 - Exercício sobre _overloading_ de métodos (em breve).
-
 > [Soluções](../solucoes/02_bases_cs/34.md)
 
-35 - Exercício sobre recursão, indicar o que é impresso (em breve).
+35 - Exercício sobre _overloading_ de métodos (em breve).
 
 > [Soluções](../solucoes/02_bases_cs/35.md)
 
-36 - Temos um triângulo feito de blocos. A primeira linha do triângulo tem 1
+36 - Exercício sobre recursão, indicar o que é impresso (em breve).
+
+> [Soluções](../solucoes/02_bases_cs/36.md)
+
+37 - Temos um triângulo feito de blocos. A primeira linha do triângulo tem 1
 bloco, a segunda linha tem 2 blocos, a terceira linha tem 3 blocos, e por ai
 fora. Completa o método `Triang`, que, dado o número de linhas, determina
 recursivamente (sem ciclos ou multiplicações) o número total de blocos num
@@ -452,4 +457,4 @@ static int Triangle(int linhas)
 }
 ```
 
-> [Soluções](../solucoes/02_bases_cs/36.md)
+> [Soluções](../solucoes/02_bases_cs/37.md)
