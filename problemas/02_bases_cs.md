@@ -332,7 +332,13 @@ Frase 3:
 
 > [Soluções](../solucoes/02_bases_cs/26.md)
 
-27 - Exercício sobre _arrays_ multidimensionais (em breve).
+27 - Cria um jogo _tile-based_ e _turn-based_  em que o jogador se mova numa
+grelha 2D (não-toroidal, ou seja, com paredes nos limites do mundo). O jogador
+apenas se move para cima, para baixo e para os lados, usando as teclas WSAD. A
+tecla Q indica que o jogo terminou. A grelha deve ser representada como um
+_array_ bidimensional, e após cada _turn_ o mundo de jogo deve ser mostrado no
+ecrã, com jogador representado por uma arroba (`@`) e os espaços vazios
+representados por um ponto (`.`).
 
 > [Soluções](../solucoes/02_bases_cs/27.md)
 
