@@ -461,7 +461,33 @@ possíveis jogadas. Mostra o código completo das enumerações criadas e da cla
 
 > [Soluções](../solucoes/02_bases_cs/35.md)
 
-36 - Exercício sobre recursão, indicar o que é impresso (em breve).
+36 - Considera o método `Recursao()`:
+
+```cs
+static int Recursao(int n1) {
+    int n2;
+    if (Math.Abs(n1) > 1000) {
+        n2 = n1;
+    } else {
+        n2 = Recursao(-n1 * 10);
+    }
+    return n2;
+}
+```
+
+Considera a seguinte invocação do método `Recursao()`:
+
+```cs
+int n0 = Recursao(5);
+```
+
+Qual é o valor da variável `n0` após a linha de código anterior?
+
+_Nota 1_: O método
+[Abs](https://docs.microsoft.com/pt-pt/dotnet/api/system.math.abs#System_Math_Abs_System_Int32_)
+da classe [Math](https://docs.microsoft.com/pt-pt/dotnet/api/system.math)
+(_namespace_ [System](https://docs.microsoft.com/pt-pt/dotnet/api/system))
+devolve o valor absoluto (módulo) do valor passado como argumento.
 
 > [Soluções](../solucoes/02_bases_cs/36.md)
 
