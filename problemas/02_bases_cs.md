@@ -288,7 +288,47 @@ apenas quando o utilizador selecionar a opção 6.
 
 > [Soluções](../solucoes/02_bases_cs/25.md)
 
-26 - Exercício sobre _arrays_ de _arrays_ (em breve).
+26 - Escreve um programa que solicite ao utilizador um número de frases, e
+depois peça ao utilizador para inserir cada uma das frases individualmente.
+Cada frase deve ser dividida nas palavras que a compõem (removendo espaços e
+pontuação), sendo as respetivas palavras guardadas num _array_ de _strings_.
+Por sua vez, cada _array_ de _strings_ deve ser guardado num _array_ de
+_arrays_. Depois, o programa deve percorrer o _array_ de _arrays_, e para cada
+_array_ de _strings_ indicar quantas palavras existem na respetiva frase, e
+qual a maior palavra.
+
+_Nota 1_: O método
+[Split()](https://docs.microsoft.com/pt-pt/dotnet/api/system.string.split#System_String_Split_System_Char___)
+dos objectos do tipo `string` devolve _substrings_ da _string_ original
+separadas pelos caracteres passados ao método sob a forma de _array_ de
+`chars`. Por exemplo:
+
+```cs
+string s = "A string with several words";
+char[] separators = new Char [] { ' ', ',', '.', ':', '\t' };
+string[] arrayOfStrings = s.Split(separators);
+```
+
+_Nota 2_: Deve ser usada a _keyword_ `foreach` sempre que possível.
+
+_Exemplo de execução:_
+
+```
+Numero de frases: 3
+Frase 1: Ola Mundo
+Frase 2: Uma frase mais comprida.
+Frase 3: Esta e a ultima frase
+
+Frase 1:
+    Numero de palavras: 2
+    Maior palavra: "Mundo"
+Frase 2:
+    Numero de palavras: 4
+    Maior palavra: "comprida"
+Frase 3:
+    Numero de palavras: 5
+    Maior palavra: "ultima"
+```
 
 > [Soluções](../solucoes/02_bases_cs/26.md)
 
