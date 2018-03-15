@@ -709,7 +709,7 @@ void MisteryOp(bool[] zz)
 {
     for (int i = 0; i < zz.Length; i++)
     {
-        zz[i] = ~zz[i];
+        zz[i] = !zz[i];
     }
 }
 ```
@@ -733,6 +733,7 @@ void MisteryOp(char[] a)
 {
     a = new char[] { a[2], a[1], a[0] };
 }
+```
 
 > [Soluções](../solucoes/02_bases_cs/45.md)
 
