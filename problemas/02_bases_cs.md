@@ -274,7 +274,7 @@ Console.WriteLine($"Last turn was {turn}");
 argumento na linha de comando. O jogo deve decorrer em quanto o jogador estiver
 vivo e enquanto o número máximo de _turns_ não tiver sido atingido. Em cada
 _turn_ o jogador tem uma probabilidade de morrer de 2%. Se o jogador não morrer
-numa dada _turn_, deve ser apresentada a mensagem `Player has survided turn #3`
+numa dada _turn_, deve ser apresentada a mensagem `Player has survived turn #3`
 (substituir 3 pela pela _turn_ atual). Caso contrário, deve ser apresentada a
 mensagem `Player died after 10 turns` (substituir 10 pela _turn_ em que o
 jogador efetivamente morreu).
