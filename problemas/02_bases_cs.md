@@ -623,8 +623,8 @@ recursivamente (sem ciclos ou multiplicações) o número total de blocos num
 triângulo deste tipo. Por exemplo, ao receber o valor 4, o método retorna o
 valor 10 correspondente ao número de blocos, como indicado em baixo:
 
-* `*   ` - 1 bloco
-* `**  ` - 2 blocos
+* `*   ` - 1 bloco
+* `**  ` - 2 blocos
 * `*** ` - 3 blocos
 * `****` - 4 blocos
 
