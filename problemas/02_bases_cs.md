@@ -647,3 +647,93 @@ static int Triang(int linhas)
 > [Soluções](../solucoes/02_bases_cs/37.md)
 
 ---
+
+38 - A _stack_ é composta por _frames_. Cada _frame_ está associada a que
+unidade de código? Que informação é contida em cada _frame_?
+
+> [Soluções](../solucoes/02_bases_cs/38.md)
+
+---
+
+39 - Que tipos de dados podem ser guardados na _heap_? E que tipos de dados só
+podem ser guardados na _heap_?
+
+> [Soluções](../solucoes/02_bases_cs/39.md)
+
+---
+
+40 - Indica duas responsabilidades do _garbage collector_.
+
+> [Soluções](../solucoes/02_bases_cs/40.md)
+
+---
+
+41 - É posssível, com o C#, aceder à _heap_ sem gestão automática da memória
+(isto é, sem intervenção do _garbage collector_)? Se sim, como?
+
+> [Soluções](../solucoes/02_bases_cs/41.md)
+
+---
+
+42 - Quais as duas grandes famílias de tipos no C#, e quais as principais
+diferenças entre elas? Existe ainda uma terceira família, muito menos usada.
+Indica qual é.
+
+> [Soluções](../solucoes/02_bases_cs/42.md)
+
+---
+
+43 - Qual é o valor da variável `x` após as seguintes instruções.
+
+```cs
+double x = 11.09;
+AddOne(x);
+```
+
+> [Soluções](../solucoes/02_bases_cs/43.md)
+
+---
+
+44 - Indica os conteúdos do  _array_ devolvido pelo método `Process()`.
+
+```cs
+bool[] Process()
+{
+    bool[] a;
+    a = new bool[] { true, true, false, true };
+    MisteryOp(a);
+    return a;
+}
+
+void MisteryOp(bool[] zz)
+{
+    for (int i = 0; i < zz.Length; i++)
+    {
+        zz[i] = ~zz[i];
+    }
+}
+```
+
+> [Soluções](../solucoes/02_bases_cs/44.md)
+
+---
+
+45 - Indica os conteúdos do  _array_ devolvido pelo método `Process()`.
+
+```cs
+char[] Process()
+{
+    char[] a;
+    a = new char[] { `a`, `b`, `c` };
+    MisteryOp(a);
+    return a;
+}
+
+void MisteryOp(char[] a)
+{
+    a = new char[] { a[2], a[1], a[0] };
+}
+
+> [Soluções](../solucoes/02_bases_cs/45.md)
+
+---
