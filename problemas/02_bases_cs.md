@@ -639,7 +639,7 @@ número devolvido.
 http://codingbat.com/prob/p194781.*
 
 ```cs
-static int Triangle(int linhas)
+static int Triang(int linhas)
 {
     // Completar este método
 }
