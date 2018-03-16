@@ -26,7 +26,7 @@ O menu deve ser apresentado em ciclo, e o programa só deve terminar quando o
 utilizador selecionar a opção 4.
 
 _Nota:_ A [stack/pilha] aqui referida é a estrutura de dados e não a
-[Stack] dos programas onde são locadas as variáveis locais dos métodos e por
+_stack_ dos programas onde são locadas as variáveis locais dos métodos e por
 ai fora.
 
 > [Soluções](../solucoes/03_poo/02.md)
