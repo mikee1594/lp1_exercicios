@@ -634,15 +634,15 @@ De modo a testares o método, cria posteriormente um programa que solicite um
 número inteiro ao utilizador, invoque o método `Triang` e imprima no ecrã o
 número devolvido.
 
-*Sugerido por [João Duarte](https://github.com/JoaoAlexandreDuarte), adaptado de
-http://codingbat.com/prob/p194781.*
-
 ```cs
 static int Triang(int linhas)
 {
     // Completar este método
 }
 ```
+
+*Sugerido por [João Duarte](https://github.com/JoaoAlexandreDuarte), adaptado de
+http://codingbat.com/prob/p194781.*
 
 > [Soluções](../solucoes/02_bases_cs/37.md)
 
