@@ -139,7 +139,10 @@ O código associado aos exercícios é disponibilizado através da licença [GPL
 * Autor: [Nuno Fachada]
 * Colaboradores: [João Duarte](https://github.com/JoaoAlexandreDuarte),
   [Gabriel Nunes](https://github.com/twinventur),
-  [Leandro Brás](https://github.com/xShadoWalkeR)
+  [Leandro Brás](https://github.com/xShadoWalkeR),
+  [Nuno Carriço](https://github.com/NunoCarrico98),
+  [Rui Martins](https://github.com/rui-martins),
+  [Flávio Santos](https://github.com/fs000)
 * Curso: [Licenciatura em Aplicações Multimédia e Videojogos][lamv]
 * Instituição: [Universidade Lusófona de Humanidades e Tecnologias][ULHT]
 
