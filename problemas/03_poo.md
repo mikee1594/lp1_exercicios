@@ -62,6 +62,24 @@ utilizador selecionar a opção 4.
 
 ---
 
+5 - A classe `Line` tem os seguintes métodos:
+
+```cs
+// Cria uma nova instância de Line com as coordenadas indicadas
+public Line(double x1, double y1, double x2, double y2);
+
+// Indica se a linha atual cruza com a linha indicada no primeiro argumento
+public bool Cross(Line otherLine);
+```
+
+Escreve um programa que solicite ao utilizador a informação necessária para
+criar duas linhas e depois apresente no ecrã a indicação se as mesmas se
+cruzam.
+
+> [Soluções](../solucoes/03_poo/05.md)
+
+---
+
 [Stack]: https://docs.microsoft.com/pt-pt/dotnet/api/system.collections.stack
 [System]: https://docs.microsoft.com/pt-pt/dotnet/api/system
 [System.Collections]: https://docs.microsoft.com/dotnet/api/system.collections
