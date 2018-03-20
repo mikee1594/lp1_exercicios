@@ -128,29 +128,41 @@ qual destes _merges_ é possível haver um _merge conflict_?
 
 ---
 
-17 - Apagaste o ramo `new-feature` do teu repositório local, ramo esse que
-estava também mapeado (com o mesmo nome) no repositório remoto `upstream`. Qual
-é o comando para apagar o ramo também no repositório remoto?
+17 - Escreve os comandos git para o teu repositório ficar com um estado
+semelhante ao indicado na imagem em baixo. Não te esqueças que é necessário
+existirem alterações na _staging area_ de modo a ser possível fazer um
+_commit_, pelo que deves indicar também estas modificações (os nomes de
+ficheiros podem ser inventados por ti).
+
+![git01](https://user-images.githubusercontent.com/3018963/37652984-3b37d760-2c35-11e8-9ad2-9461c87fccf0.png)
 
 > [Soluções](../solucoes/01_git/17.md)
 
 ---
 
-18 - Estás a trabalhar no teu projeto final de LP1, e tens alguns _commits_ no
-ramo `devel` que ainda não foram sincronizados com o teu servidor remoto
-(conhecido localmente como `upstream`). Qual o comando para realizar esta
-sincronização/carregamento de alterações com o servidor remoto?
+18 - Apagaste o ramo `new-feature` do teu repositório local, ramo esse que
+estava também mapeado (com o mesmo nome) no repositório remoto `upstream`. Qual
+é o comando para apagar o ramo também no repositório remoto?
 
 > [Soluções](../solucoes/01_git/18.md)
 
 ---
 
-19 - Estás a trabalhar com o teu colega no projeto final de LP1, e o teu colega
+19 - Estás a trabalhar no teu projeto final de LP1, e tens alguns _commits_ no
+ramo `devel` que ainda não foram sincronizados com o teu servidor remoto
+(conhecido localmente como `upstream`). Qual o comando para realizar esta
+sincronização/carregamento de alterações com o servidor remoto?
+
+> [Soluções](../solucoes/01_git/19.md)
+
+---
+
+20 - Estás a trabalhar com o teu colega no projeto final de LP1, e o teu colega
 criou alguns ramos e fez _push_ de algumas alterações no servidor remoto
 (localmente conhecido como `mygithub`). Qual o comando para o teu repositório
 local ficar com conhecimento sobre todas as alterações efectuadas no
 repositório remoto (incluindo novos ramos)?
 
-> [Soluções](../solucoes/01_git/19.md)
+> [Soluções](../solucoes/01_git/20.md)
 
 ---
