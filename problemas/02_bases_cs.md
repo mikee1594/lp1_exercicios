@@ -724,7 +724,7 @@ void MisteryOp(bool[] zz)
 char[] Process()
 {
     char[] a;
-    a = new char[] { `a`, `b`, `c` };
+    a = new char[] { 'a', 'b', 'c' };
     MisteryOp(a);
     return a;
 }
