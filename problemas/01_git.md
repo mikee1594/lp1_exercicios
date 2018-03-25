@@ -98,7 +98,8 @@ programa (`master`). Qual o comando ou comandos para o efeito?
 ---
 
 13 - Qual o comando para ver as diferenças entre o penúltimo _commit_ e o
-antepenúltimo _commit_?
+antepenúltimo _commit_? Podes assumir que estamos num ramo sem divergências,
+ou seja, cada _commit_ tem apenas um pai.
 
 > [Soluções](../solucoes/01_git/13.md)
 
