@@ -137,13 +137,16 @@ O código associado aos exercícios é disponibilizado através da licença [GPL
 ## Metadados
 
 * Autor: [Nuno Fachada]
-* Colaboradores: [João Duarte](https://github.com/JoaoAlexandreDuarte),
+* Colaboradores:
+  [André Santos](https://github.com/Snigy24),
+  [Flávio Santos](https://github.com/fs000),
   [Gabriel Nunes](https://github.com/twinventur),
+  [Inês Nunes](https://github.com/FiammaV),
+  [João Duarte](https://github.com/JoaoAlexandreDuarte),
   [Leandro Brás](https://github.com/xShadoWalkeR),
   [Nuno Carriço](https://github.com/NunoCarrico98),
-  [Rui Martins](https://github.com/rui-martins),
-  [Flávio Santos](https://github.com/fs000),
-  [André Santos](https://github.com/Snigy24)
+  [Pedro Santos](https://github.com/pedrosantosobral),
+  [Rui Martins](https://github.com/rui-martins)
 * Curso: [Licenciatura em Aplicações Multimédia e Videojogos][lamv]
 * Instituição: [Universidade Lusófona de Humanidades e Tecnologias][ULHT]
 
