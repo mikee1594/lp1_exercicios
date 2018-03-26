@@ -14,7 +14,7 @@ work. If not, see <http://creativecommons.org/licenses/by-nc-sa/4.0/>.
 # Exercícios de Linguagens de Programação I
 
 Este repositório contém uma série de exercícios da disciplina de Linguagens de
-Programação I da [Licenciatura em Aplicações Multimédia e Videojogos][lamv] da
+Programação I da [Licenciatura em Videojogos][lv] da
 [Universidade Lusófona de Humanidades e Tecnologias][ULHT] em Lisboa.
 
 Os alunos podem e devem fazer _fork_ deste repositório, clonar o mesmo para o
@@ -152,6 +152,6 @@ O código associado aos exercícios é disponibilizado através da licença [GPL
 
 [GPLv3]:https://www.gnu.org/licenses/gpl-3.0.en.html
 [CC BY-NC-SA 4.0]:https://creativecommons.org/licenses/by-nc-sa/4.0/
-[lamv]:https://www.ulusofona.pt/licenciatura/aplicacoes-multimedia-e-videojogos
+[lv]:https://www.ulusofona.pt/licenciatura/videojogos
 [Nuno Fachada]:https://github.com/fakenmc
 [ULHT]:https://www.ulusofona.pt/
