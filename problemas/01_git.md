@@ -57,8 +57,8 @@ repositório.
 
 8 - Escreve os comandos git para: 1) adicionar um repositório remoto chamado
 _origin_ com URL https://github.com/VideojogosLusofona/BestGameEver; 2) fazer
-_push_ do ramo local _master_, com seguimento/referência _upstream_, para
-o repositório remoto _origin_ adicionado no ponto anterior.
+_push_ do ramo local _master_, com seguimento, para o repositório remoto
+_origin_ adicionado no ponto anterior.
 
 > [Soluções](../solucoes/01_git/08.md)
 
@@ -165,5 +165,121 @@ local ficar com conhecimento sobre todas as alterações efectuadas no
 repositório remoto (incluindo novos ramos)?
 
 > [Soluções](../solucoes/01_git/20.md)
+
+---
+
+21 - Estás a trabalhar no ramo local `master`, e tens alguns _commits_ feitos
+desde a última vez que sincronizaste com o remoto `origin`. Ao fazeres `push`
+das tuas alterações, obténs a seguinte mensagem:
+
+```
+error: failed to push some refs to 'https://gitlab.com/ulht/projeto.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+```
+
+Explica qual é o problema e como o podes resolver, assumindo que não existem
+_merge conflicts_.
+
+> [Soluções](../solucoes/01_git/21.md)
+
+---
+
+22 - Estás a trabalhar no ramo local `master`, e tens alguns _commits_ feitos
+desde a última vez que sincronizaste com o remoto `origin`. Antes de fazeres
+o `push` dos teus _commits_ locais, tentas integrar possíveis _commits_ em
+`origin/master` no teu `master` local (fazendo por exemplo, `git pull`), mas
+obténs a seguinte mensagem de erro:
+
+```
+Unpacking objects: 100% (6/6), done.
+From https://gitlab.com/ulht/projeto.git
+   17858a5..1601016  master     -> origin/master
+Auto-merging MyGame/BigBadBoss.cs
+CONFLICT (content): Merge conflict in MyGame/BigBadBoss.cs
+Automatic merge failed; fix conflicts and then commit the result.
+```
+
+Explica qual é o problema e como o podes resolver.
+
+> [Soluções](../solucoes/01_git/22.md)
+
+---
+
+23 - Como podes eliminar localmente o conhecimento sobre o remoto chamado
+`origin`?
+
+> [Soluções](../solucoes/01_git/23.md)
+
+---
+
+24 - Estás a trabalhar há algum tempo num repositório local, mas decidiste que
+seria importante ter um repositório remoto para _backup_ e possíveis
+colaborações com terceiros. Criaste o repositório remoto no GitLab no URL
+https://gitlab.com/MyUsername/bestgamever.git, e agora pretendes associar este
+remoto ao teu repositório local com o nome `principal` e fazer `push` do ramo
+local `master` para o ramo remoto `master`. Além disso queres tornar o ramo
+`master` local num _remote tracking branch_ (ramo de seguimento remoto) do
+ramo `principal/master`. Quais são os comandos para alcançares estes objetivos?
+
+> [Soluções](../solucoes/01_git/24.md)
+---
+
+25 - Chegaste à conclusão que o nome `principal` não é apropriado para o
+repositório remoto do exercício anterior. Qual o comando para mudares o nome
+do remoto para `origin`?
+
+> [Soluções](../solucoes/01_git/25.md)
+
+---
+
+26 - Explica por palavras tuas o que é um _remote tracking branch_ (ramo de
+seguimento remoto)?
+
+> [Soluções](../solucoes/01_git/26.md)
+
+---
+
+27 - Como podes obter localmente informação detalhada sobre um remoto conhecido
+como  `upstream`?
+
+> [Soluções](../solucoes/01_git/27.md)
+
+---
+
+28 - Como podes obter informação detalhada sobre um ramo local chamado `devel`,
+incluíndo a sua associação de seguimento remoto com um potencial ramo remoto?
+
+> [Soluções](../solucoes/01_git/28.md)
+
+---
+
+29 - Tens um ramo local chamado `testing` e queres fazer `push` desse ramo para
+o remoto localmente conhecido como `main`. No entanto o remoto em questão já
+tem um ramo com esse nome. Como podes fazer `push` (com seguimento) do teu ramo
+local `testing` de modo a que este seja conhecido remotamente como `mytesting`?
+
+> [Soluções](../solucoes/01_git/29.md)
+
+---
+
+30 - Tens um ramo local chamado `new-level` e queres que este ramo passe a
+fazer _remote tracking_ (seguimento) do ramo `devel` no remoto localmente
+conhecido como `origin`. Qual é o comando para o efeito?
+
+> [Soluções](../solucoes/01_git/30.md)
+
+---
+
+31 - O teu repositório local tem conhecimento de dois remotos: `origin` e
+`upstream`. Existe um ramo chamado `new-boss` no remoto `origin`, que não
+existe localmente nem no remoto `upstream`. Quais os comandos para passares a
+ter este ramo localmente e no remoto `upstream`, com o mesmo nome? Certifica-te
+que o ramo `new-boss` local não faz seguimento a nenhum ramo remoto.
+
+> [Soluções](../solucoes/01_git/31.md)
 
 ---
