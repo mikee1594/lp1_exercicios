@@ -80,6 +80,29 @@ cruzam.
 
 ---
 
+6 - Cria uma classe chamada `NPC` com três atributos do tipo `float` (_energy_,
+_damage_ e _speed_) e um atributo do tipo `NPCType`, sendo este último uma
+enumeração com três valores: `Minion`, `Soldier` e `Boss`. A classe deve ter
+um construtor para inicializar estes quatro atributos, e os seguintes métodos:
+
+* `TakeHit()` - Diminui a energia do NPC para metade.
+* `Die()` - Mata o NPC, colocando energia e velocidade a zero.
+* `Faster()` - Aumenta velocidade em 10%.
+* `Slower()` - Diminui velocidade em 10%.
+* `Hit()` - NPC desfere golpe e este método retorna a potência do golpe, que é
+igual a _damage_ vezes 1, 10 ou 100 caso o `NPCType` seja `Minion`, `Soldier`
+ou `Boss`, respetivamente.
+
+Além da classe `NPC`, apresenta também o código da enumeração `NPCType`, tendo
+em conta que esta pode facilitar as contas do método `Hit()`.
+
+Apresenta também uma classe `Program` com um único método estático `Main()`
+para testar a classe `NPC` e os seus métodos.
+
+> [Soluções](../solucoes/03_poo/06.md)
+
+---
+
 [Stack]: https://docs.microsoft.com/pt-pt/dotnet/api/system.collections.stack
 [System]: https://docs.microsoft.com/pt-pt/dotnet/api/system
 [System.Collections]: https://docs.microsoft.com/dotnet/api/system.collections
