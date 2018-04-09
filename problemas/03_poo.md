@@ -103,6 +103,28 @@ para testar a classe `NPC` e os seus métodos.
 
 ---
 
+7 - Cria uma classe chamada `Checker` com um único método de nome `Check()`.
+Este método recebe dois argumentos: 1) um _array_ bidimensional de `int`; e, 2)
+um `int`. O método retorna `true` caso encontre uma linha (horizontal, vertical
+ou diagonal) de quatro ou mais inteiros iguais ao 2º argumento, ou `false`
+caso contrário.
+
+Adiciona o método estático `Main()` à classe `Checker`. Este método deve: 1)
+solicitar ao utilizador as dimensões do _array_; 2) solicitar ao utilizador os
+valores do _array_; 3) solicitar ao utilizador o valor a procurar no
+_array_; 4) criar uma nova instância de `Checker`; 5) invocar o respetivo
+método `Check()` para verificar se o valor a procurar no _array_ aparece em
+forma uma linha com comprimento igual ou maior a quatro; e, 6) indicar no ecrã
+se essa linha existe ou não.
+
+_Nota:_ o aluno que submeter a primeira solução 100% correta deste problema terá
+direito a uma chave Steam para o jogo
+[Kingdom: New Lands](http://store.steampowered.com/app/496300/Kingdom_New_Lands/).
+
+> [Soluções](../solucoes/03_poo/07.md)
+
+---
+
 [Stack]: https://docs.microsoft.com/pt-pt/dotnet/api/system.collections.stack
 [System]: https://docs.microsoft.com/pt-pt/dotnet/api/system
 [System.Collections]: https://docs.microsoft.com/dotnet/api/system.collections
