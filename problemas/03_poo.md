@@ -125,6 +125,39 @@ direito a uma chave Steam para o jogo
 
 ---
 
+8 - Cria uma classe chamada `Car` com três variáveis de instância, _speed_
+(`float`), _weight_ (`float`) e _fuelType_ (enumeração `Fuel` com 4 valores
+possíveis: `Gasoline`, `Diesel`, `LPG` e `Electric`). A classe deve ter ainda
+uma variável de classe (estática) chamada _maxSpeed_ (`float`), com valor por
+omissão igual a 220.0f. A classe deve ter um único construtor que aceita
+argumentos para inicializar as variáveis  _weight_ e _fuelType_, inicializando
+a variável _speed_ a zero. A classe deve ter os seguintes métodos:
+
+* `Accelerate(float x)` - Aumenta a velocidade com o valor indicado na
+  variável `x`, mas nunca acima de _maxSpeed_. Devolve a nova velocidade.
+* `Break(float x)` - Diminui a velocidade com o valor indicado na variável `x`,
+  mas nunca abaixo de zero. Devolve a nova velocidade.
+* `GetSpeed()` - Retorna o valor atual da velocidade sem a alterar.
+* `GetFuelType()` - Retorna o tipo de combustível.
+* `GetWeight()` - Retorna o peso do carro.
+* `GetMaxSpeed()` e `SetMaxSpeed()` - Métodos estáticos para obter e definir
+  o valor da variável de classe `maxSpeed`.
+
+Cria ainda uma classe chamada `TestCar` contendo um método estático `Main()`
+para testar exaustivamente todos os métodos da classe `Car`.
+
+> [Soluções](../solucoes/03_poo/08.md)
+
+---
+
+9 - Modifica todos os tipos criados no exercício anterior (`Car`, `Fuel` e
+`TestCar`) de modo a que façam uso de propriedades e sintaxe de inicialização
+de objetos com propriedades. Qual é a versão com menos código _boilerplate_?
+
+> [Soluções](../solucoes/03_poo/09.md)
+
+---
+
 [Stack]: https://docs.microsoft.com/pt-pt/dotnet/api/system.collections.stack
 [System]: https://docs.microsoft.com/pt-pt/dotnet/api/system
 [System.Collections]: https://docs.microsoft.com/dotnet/api/system.collections
