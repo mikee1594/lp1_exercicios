@@ -100,10 +100,25 @@ Apresenta também uma classe `Program` com um único método estático `Main()`
 para testar a classe `NPC` e os seus métodos.
 
 > [Soluções](../solucoes/03_poo/06.md)
+---
+
+7 - Cria uma classe chamada `CharChecker` com um único método de nome
+`CharCheck()`. Este método recebe três argumentos: 1) uma _string_; 2) um
+caráter `c`; e, 3) um inteiro `n`. O método retorna `true` caso a _string_
+contenha o caráter `c` pelo menos `n` vezes seguidas.
+
+Adiciona o método estático `Main()` à classe `CharChecker`. Este método deve: 1)
+solicitar ao utilizador uma _string_; 2) solicitar ao utilizador o valor de
+`c`; 3) solicitar ao utilizador o valor de `n`; 4) criar uma nova instância de
+`CharChecker`; 5) invocar o respetivo método `CharCheck()` para verificar se o
+`c` aparece mais de `n` vezes seguidas na _string_; e, 6) indicar no ecrã o
+resultado.
+
+> [Soluções](../solucoes/03_poo/07.md)
 
 ---
 
-7 - Cria uma classe chamada `Checker` com um único método de nome `Check()`.
+8 - Cria uma classe chamada `Checker` com um único método de nome `Check()`.
 Este método recebe dois argumentos: 1) um _array_ bidimensional de `int`; e, 2)
 um `int`. O método retorna `true` caso encontre uma linha (horizontal, vertical
 ou diagonal) de quatro ou mais inteiros iguais ao 2º argumento, ou `false`
@@ -121,11 +136,11 @@ _Nota:_ o aluno que submeter a primeira solução 100% correta deste problema te
 direito a uma chave Steam para o jogo
 [Kingdom: New Lands](http://store.steampowered.com/app/496300/Kingdom_New_Lands/).
 
-> [Soluções](../solucoes/03_poo/07.md)
+> [Soluções](../solucoes/03_poo/08.md)
 
 ---
 
-8 - Cria uma classe chamada `Car` com três variáveis de instância, _speed_
+9 - Cria uma classe chamada `Car` com três variáveis de instância, _speed_
 (`float`), _weight_ (`float`) e _fuelType_ (enumeração `Fuel` com 4 valores
 possíveis: `Gasoline`, `Diesel`, `LPG` e `Electric`). A classe deve ter ainda
 uma variável de classe (estática) chamada _maxSpeed_ (`float`), com valor por
@@ -146,15 +161,62 @@ a variável _speed_ a zero. A classe deve ter os seguintes métodos:
 Cria ainda uma classe chamada `TestCar` contendo um método estático `Main()`
 para testar exaustivamente todos os métodos da classe `Car`.
 
-> [Soluções](../solucoes/03_poo/08.md)
+> [Soluções](../solucoes/03_poo/09.md)
 
 ---
 
-9 - Modifica todos os tipos criados no exercício anterior (`Car`, `Fuel` e
+10 - Modifica todos os tipos criados no exercício anterior (`Car`, `Fuel` e
 `TestCar`) de modo a que façam uso de propriedades e sintaxe de inicialização
 de objetos com propriedades. Qual é a versão com menos código _boilerplate_?
 
-> [Soluções](../solucoes/03_poo/09.md)
+> [Soluções](../solucoes/03_poo/10.md)
+
+---
+
+11 - Cria uma classe chamada `Dog`. Instâncias desta classe devem ter os
+seguintes atributos:
+
+* Peso (`double`)
+* Altura (`double`)
+* Cor (`string`)
+* Saciação (`double` entre 0 e 1, que corresponde à percentagem de saciação)
+
+Instâncias desta classe devem ter a seguinte funcionalidade:
+
+* Comer (no máximo até estar cheio/saciado)
+* Fazer necessidades (no mínimo até estar vazio/cheio de fome)
+* Ladrar (deve ser impresso o tipo de ladrar)
+* Correr (deve ser devolvida a velocidade, igual a saciação * 100 / peso)
+
+A classe deve ser implementada com as variáveis de instância, propriedades,
+construtores e métodos necessários para atingir estes requisitos, usando as
+melhores práticas para o efeito. Dentro do possível as propriedades devem ser
+públicas com valores por omissão, auto-implementadas e com `set` privado
+(_read-only_). Todos os nomes usados devem estar em inglês.
+
+Cria também uma classe `Program` com um método `Main()` estático para testar
+todas as funcionalidades da classe `Dog`.
+
+As classes `Dog` e `Program` devem ser completamente documentadas com
+comentários XML em inglês.
+
+Este enunciado é propositadamente vago e os alunos devem complementar o
+exercício da forma que acharem melhor, desde de que vá ao encontro do que é
+pedido.
+
+> [Soluções](../solucoes/03_poo/11.md)
+
+---
+
+12 - Tipos anónimos
+
+> [Soluções](../solucoes/03_poo/12.md)
+
+---
+
+13 - Termos (como na aula)
+
+> [Soluções](../solucoes/03_poo/14.md)
 
 ---
 
