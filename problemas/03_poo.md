@@ -208,15 +208,32 @@ pedido.
 
 ---
 
-12 - Tipos anónimos
+12 - Cria uma classe estática chamada `Program` com um único método estático
+`Main()`. Neste método devem ser solicitadas ao utilizador as coordenadas `x`,
+`y` e `z` de um vetor 3D, devendo depois o método mostrar o comprimento do
+vetor.
+
+Para a resolução deste exercício é obrigatório usar um tipo anónimo, sem
+variáveis intermédias, para guardar as coordenadas do vector.
 
 > [Soluções](../solucoes/03_poo/12.md)
 
 ---
 
-13 - Termos (como na aula)
+13 - Explica por palavras tuas o significado dos seguintes termos:
 
-> [Soluções](../solucoes/03_poo/14.md)
+* Classe
+* Objeto / instância
+* Método
+* Construtor
+* Variável de instância
+* Propriedade
+* Variável de suporte
+* Variável local
+* _Overloading_
+* Encapsulação
+
+> [Soluções](../solucoes/03_poo/13.md)
 
 ---
 
