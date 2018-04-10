@@ -27,7 +27,7 @@ secção [Colaboração](#colab).
 1. [Git](problemas/01_git.md)
 2. [Bases de C#](problemas/02_bases_cs.md)
 3. [Programação Orientada a Objectos](problemas/03_poo.md)
-4. [Diagramas UML para classes](problemas/04_uml.md)
+4. [UML e design de classes](problemas/04_uml.md)
 5. [Design Patterns](problemas/05_design_patterns.md)
 6. [Tópicos avançados de C#](problemas/06_avancado.md)
 7. [MonoGame](problemas/07_monogame.md)
@@ -146,7 +146,8 @@ O código associado aos exercícios é disponibilizado através da licença [GPL
   [Leandro Brás](https://github.com/xShadoWalkeR),
   [Nuno Carriço](https://github.com/NunoCarrico98),
   [Pedro Santos](https://github.com/pedrosantosobral),
-  [Rui Martins](https://github.com/rui-martins)
+  [Rui Martins](https://github.com/rui-martins),
+  [Sara Gama](https://github.com/serapinta)
 * Curso: [Licenciatura em Aplicações Multimédia e Videojogos][lamv]
 * Instituição: [Universidade Lusófona de Humanidades e Tecnologias][ULHT]
 
