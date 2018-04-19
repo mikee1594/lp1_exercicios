@@ -132,10 +132,6 @@ método `Check()` para verificar se o valor a procurar no _array_ aparece em
 forma uma linha com comprimento igual ou maior a quatro; e, 6) indicar no ecrã
 se essa linha existe ou não.
 
-_Nota:_ o aluno que submeter a primeira solução 100% correta deste problema terá
-direito a uma chave Steam para o jogo
-[Kingdom: New Lands](http://store.steampowered.com/app/496300/Kingdom_New_Lands/).
-
 > [Soluções](../solucoes/03_poo/08.md)
 
 ---
