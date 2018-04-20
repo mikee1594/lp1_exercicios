@@ -283,3 +283,23 @@ que o ramo `new-boss` local não faz seguimento a nenhum ramo remoto.
 > [Soluções](../solucoes/01_git/31.md)
 
 ---
+
+32 - Tens dois ramos no teu repositório local, `master` e `dev`, que entretanto
+divergiram. Estás neste momento no ramo `master` e queres juntar-lhe as
+alterações efetuadas no ramo `dev`, mas não queres criar um _merge commit_
+(isto é, queres manter a história linear), nem queres reescrever a história do
+ramo `master`. Quais são os comandos para alcançares este objetivo?
+
+> [Soluções](../solucoes/01_git/32.md)
+
+---
+
+33 - Estás a trabalhar com vários colegas num remoto localmente conhecido como
+`ulht_colab`. Efetuaste alguns _commits_ no teu ramo local `master`, que
+entretanto divergiu do ramo `ulht_colab/master`. Queres fazer _push_ das tuas
+alterações, mas primeiro tens de integrar localmente as alterações remotas.
+Indica os comandos para: 1) integrares localmente as alterações remotas,
+mantendo a história linear e evitando _merge commits_; e, 2) publicares as tuas
+alterações no remoto.
+
+> [Soluções](../solucoes/01_git/33.md)
