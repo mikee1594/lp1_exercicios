@@ -12,3 +12,11 @@ _issue_, e finalmente colar o URL no ficheiro Markdown da
 > [Soluções](../solucoes/04_uml/01.md)
 
 ---
+
+2 - Cria um projeto no Visual Studio que respeite o seguinte diagrama UML. O
+projeto deve ter funcionalidade mínima para demonstrar as relações indicadas no
+diagrama.
+
+![uml01](https://user-images.githubusercontent.com/3018963/39075707-09fe48fa-44ef-11e8-9b37-461a459b5aca.png)
+
+> [Soluções](../solucoes/04_uml/02.md)
