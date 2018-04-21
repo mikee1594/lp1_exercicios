@@ -233,6 +233,56 @@ variáveis intermédias, para guardar as coordenadas do vector.
 
 ---
 
+14 - Indica duas das principais diferenças entre _structs_ e classes.
+
+> [Soluções](../solucoes/03_poo/14.md)
+
+---
+
+15 - Em que parte da memória são colocadas as variáveis do tipo _struct_ quando
+guardadas num _array_? Porquê?
+
+> [Soluções](../solucoes/03_poo/15.md)
+
+---
+
+16 - Estuda, analisa e executa o projeto [16](03_poo/16). Considerando que as
+_structs_ são tipos de valor, explica a razão de neste caso a alteração de
+campos de uma _struct_ dentro de um método também se repercute fora do método.
+
+> [Soluções](../solucoes/03_poo/16.md)
+
+---
+
+17 - Explica porque razão as _structs_ não podem ter o valor `null`.
+
+> [Soluções](../solucoes/03_poo/17.md)
+
+---
+
+18 - Explica o que são tipos imutáveis e quais são as vantagens dos mesmos. Dá
+um exemplo (em código) de um tipo imutável.
+
+> [Soluções](../solucoes/03_poo/18.md)
+
+---
+
+19 - Explica por palavras tuas o significado e/ou para que servem os seguintes
+conceitos e _keywords_:
+
+* Herança
+* Classe base/superclasse
+* Classe derivada/subclasse
+* _Keyword_ `is`
+* _Keyword_ `as`
+* _Keyword_ `protected`
+* _Keyword_ `sealed`
+* _Keyword_ `partial`
+
+> [Soluções](../solucoes/03_poo/19.md)
+
+---
+
 [Stack]: https://docs.microsoft.com/pt-pt/dotnet/api/system.collections.stack
 [System]: https://docs.microsoft.com/pt-pt/dotnet/api/system
 [System.Collections]: https://docs.microsoft.com/dotnet/api/system.collections
