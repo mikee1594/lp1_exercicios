@@ -283,6 +283,33 @@ conceitos e _keywords_:
 
 ---
 
+20 - Considera a seguinte classe e indica, justificando, se a mesma é
+imutável ou não.
+
+```cs
+public class Map
+{
+    public float Width { get; }
+    public float Height { get; }
+    public int NumberOfBosses { get; }
+    protected ulong highScore;
+    protected string name;
+
+    public Map(float width, float height, int numberOfBosses, ulong highScore, string name)
+    {
+        Width = width;
+        Height = height;
+        NumberOfBosses = numberOfBosses;
+        this.highScore = highScore;
+        this.name = name;
+    }
+}
+```
+
+> [Soluções](../solucoes/03_poo/20.md)
+
+---
+
 [Stack]: https://docs.microsoft.com/pt-pt/dotnet/api/system.collections.stack
 [System]: https://docs.microsoft.com/pt-pt/dotnet/api/system
 [System.Collections]: https://docs.microsoft.com/dotnet/api/system.collections
