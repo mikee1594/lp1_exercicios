@@ -17,6 +17,29 @@ _issue_, e finalmente colar o URL no ficheiro Markdown da
 projeto deve ter funcionalidade mínima para demonstrar as relações indicadas no
 diagrama.
 
-![uml01](https://user-images.githubusercontent.com/3018963/39075707-09fe48fa-44ef-11e8-9b37-461a459b5aca.png)
+![uml02](https://user-images.githubusercontent.com/3018963/39075707-09fe48fa-44ef-11e8-9b37-461a459b5aca.png)
 
-> [Soluções](../solucoes/04_uml/02.md)
+---
+
+3 - Considera o diagrama UML em baixo, e depois indica, justificando, quais das
+seguintes instruções são válidas e quais são inválidas. As instruções são
+independentes umas das outras, e naquelas que não implicam criação de objetos
+presume-se que o(s) objeto(s) em questão já foram instanciados. Considera-se
+que todas as instruções ocorrem fora das classes presentes no diagrama.
+
+![uml03](https://user-images.githubusercontent.com/3018963/39089164-7c657fc0-45b8-11e8-9f73-a20edb1654c5.png)
+
+* `Animal animal = new Dog();`
+* `Cat cat = new Dog();`
+* `Cat cat = new Animal();`
+* `a.Bark(); // 'a' é uma instância de Animal`
+* `dog.Eat(); // 'dog' é uma instância de Dog`
+* `float y = tareco.energy; // 'tareco' é uma instância de Cat`
+* `Console.WriteLine(myCat.Name); // 'myCat' é uma instância de Cat`
+* `bobi.energy = 123.4f; // 'bobi é uma instância de Dog'`
+* `Dog pluto = new Animal();`
+* `y.Meow(); // 'y' é uma instância de Cat`
+* `beast.Bite(); // 'beast' é uma instância de Animal`
+* `zz.Eat(); // 'zz' é uma instância de Cat`
+
+> [Soluções](../solucoes/04_uml/03.md)

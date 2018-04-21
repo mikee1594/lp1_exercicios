@@ -248,7 +248,7 @@ guardadas num _array_? Porquê?
 
 16 - Estuda, analisa e executa o projeto [16](03_poo/16). Considerando que as
 _structs_ são tipos de valor, explica a razão de neste caso a alteração de
-campos de uma _struct_ dentro de um método também se repercute fora do método.
+campos de uma _struct_ dentro de um método também se repercutir fora do método.
 
 > [Soluções](../solucoes/03_poo/16.md)
 
