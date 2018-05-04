@@ -310,6 +310,151 @@ public class Map
 
 ---
 
+21 - _Exercício em construção_
+
+<!--
+Consira a seguinte classe e responde, justificando, às questões em baixo.
+
+```cs
+using UnityEngine;
+
+namespace MyGame
+{
+    public class TargetController : MonoBehaviour
+    {
+
+        public GameObject target;
+        public float delay;
+
+        private GameArea gameArea;
+
+        private void Start()
+        {
+            gameArea = new GameArea();
+            target = GameObject.FindWithTag("Target");
+            SpawnTarget();
+        }
+
+        private void Update()
+        {
+            if ((target == null) && !IsInvoking("SpawnTarget"))
+            {
+                Invoke("SpawnTarget", delay);
+            }
+        }
+
+        private void SpawnTarget()
+        {
+            Vector2 pos = gameArea.RandomPosition(0.9f);
+            Instantiate(target, pos, Quaternion.identity);
+        }
+    }
+}
+```
+
+* namespace
+* Nome da classe, classe base e classe derivada
+* Variáveis de instância
+* propriedades
+* métodos de instância
+* uso de métodos herdados
+* uso de métodos estáticos
+
+> [Soluções](../solucoes/03_poo/21.md)
+-->
+
+---
+
+<a name="ex22"></a>
+22 - Considera o seguinte código:
+
+```cs
+public struct Bullet
+{
+    private float calibre;
+    public float Calibre
+    {
+        get { return calibre; }
+        set { if (value < 0.1f) calibre = 0.1f; else calibre = value; }
+    }
+}
+public class Weapon
+{
+    public float Value { get; }
+    public Weapon(float value) { Value = value; }
+}
+public class Gun : Weapon
+{
+    private Bullet[] bullets;
+    public Gun(float value, int numBullets, float calibre) : base(value)
+    {
+        bullets = new Bullet[numBullets];
+        for (int i = 0; i < numBullets; i++)
+        {
+            bullets[i] = new Bullet() { Calibre = calibre };
+        }
+    }
+}
+```
+
+a) Escreve uma linha de código que: a) crie uma instância de `Gun` com valor
+(`value`) 50.0 e três `Bullet`s de calibre 0.5; e, b) guarde essa instância
+numa variável do tipo `Weapon`.
+
+b) Adiciona uma propriedade à classe `Gun` chamada `NumberOfBullets`, só de
+leitura, que retorne o número de `Bullet`s existentes numa instância de `Gun`.
+
+> [Soluções](../solucoes/03_poo/22.md)
+
+---
+
+<a name="ex23"></a>
+23 - Considera o seguinte código:
+
+```cs
+public struct Passenger
+{
+    private double weight;
+    public double Weight
+    {
+        get { return weight; }
+        set { if (value < 5) weight = 5; else weight = value; }
+    }
+}
+public class Vehicle
+{
+    public double Value { get; }
+    public Vehicle(double value) { Value = value; }
+}
+public class Car : Vehicle
+{
+    private Passenger[] passengers;
+    public Car(double value, int numPassengers, float avgWeight) : base(value)
+    {
+        Random r = new Random();
+        passengers = new Passenger[numPassengers];
+        for (int i = 0; i < numPassengers; i++)
+        {
+            passengers[i] = new Passenger()
+            {
+                Weight = avgWeight + r.Next(-10, 10)
+            };
+        }
+    }
+}
+```
+
+a) Escreve uma linha de código que: a) crie uma instância de `Car` com valor
+(`value`) 2550.0 e três `Passenger`s com peso médio (`avgWeight`) 70; e, b)
+guarde essa instância numa variável do tipo `Vehicle`.
+
+b) Adiciona um método à classe `Car` chamado `GetTotalWeight()` que retorne o
+peso total dos passageiros numa instância de `Car`.
+
+> [Soluções](../solucoes/03_poo/23.md)
+
+---
+
 [Stack]: https://docs.microsoft.com/pt-pt/dotnet/api/system.collections.stack
 [System]: https://docs.microsoft.com/pt-pt/dotnet/api/system
 [System.Collections]: https://docs.microsoft.com/dotnet/api/system.collections
