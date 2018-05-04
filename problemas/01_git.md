@@ -303,3 +303,70 @@ mantendo a história linear e evitando _merge commits_; e, 2) publicares as tuas
 alterações no remoto.
 
 > [Soluções](../solucoes/01_git/33.md)
+
+---
+
+34 - Adiciona ao teu repositório local um segundo remoto (com o nome que
+quiseres) com URL igual a https://github.com/awesome/game.git. Depois cria um
+novo ramo local chamado `devel` (com base em `master`) e faz um primeiro _push_
+do mesmo, com seguimento remoto, para o ramo `devtests` do novo repositório.
+
+> [Soluções](../solucoes/01_git/34.md)
+
+---
+
+35 - Qual o comando para adicionares uma _tag_ simples com etiqueta `versao123`
+ao último _commit_ efetuado? Qual o comando para fazeres _push_ única e
+exclusivamente desta _tag_ para o repositório remoto `repo-do-pedro`?
+
+> [Soluções](../solucoes/01_git/35.md)
+
+---
+
+36 - Qual o comando para adicionares uma _tag_ anotada com etiqueta `v1.2` e
+mensagem `Fix 10 bugs since last version` ao último _commit_ efetuado? Qual o
+comando para fazeres _push_ única e exclusivamente desta _tag_ para o
+repositório remoto `origin`?
+
+> [Soluções](../solucoes/01_git/36.md)
+
+---
+
+37 - Qual o comando para adicionares uma _tag_ simples com etiqueta `p5` a um
+_commit_ com código de verificação começado por `70460b4b`? Qual o comando para
+fazeres _push_ única e exclusivamente desta _tag_ para o repositório remoto
+`upstream`?
+
+> [Soluções](../solucoes/01_git/37.md)
+
+---
+
+38 - Qual o comando para adicionares uma _tag_ anotada com etiqueta `v12` e
+mensagem `Lots of optimizations and bug fixes` a um _commit_ com código de
+verificação começado por `baae61804`? Qual o comando para fazeres _push_ única
+e exclusivamente desta _tag_ para o repositório remoto `github-repo`?
+
+> [Soluções](../solucoes/01_git/38.md)
+
+---
+
+39 - Qual o comando para eliminares uma _tag_ com etiqueta `v987`? Qual o
+comando para eliminares esta _tag_ do repositório remoto `remoto-do-ze`?
+
+> [Soluções](../solucoes/01_git/39.md)
+
+---
+
+40 - Qual o comando para listares todas as _tags_ começadas por `v3`?
+
+> [Soluções](../solucoes/01_git/40.md)
+
+---
+
+41 - Qual o comando para criares um novo ramo `v3devel`, sem mudar para o
+mesmo, a partir da _tag_ `v3.4.1`? E se quisesses criar o ramo e mudar para o
+mesmo num único comando?
+
+> [Soluções](../solucoes/01_git/41.md)
+
+---
