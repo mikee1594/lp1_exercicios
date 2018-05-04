@@ -19,6 +19,8 @@ diagrama.
 
 ![uml02](https://user-images.githubusercontent.com/3018963/39075707-09fe48fa-44ef-11e8-9b37-461a459b5aca.png)
 
+> [Soluções](../solucoes/04_uml/02.md)
+
 ---
 
 3 - Considera o diagrama UML em baixo, e depois indica, justificando, quais das
@@ -43,3 +45,35 @@ que todas as instruções ocorrem fora das classes presentes no diagrama.
 * `zz.Eat(); // 'zz' é uma instância de Cat`
 
 > [Soluções](../solucoes/04_uml/03.md)
+
+---
+
+4 - Desenha o diagrama UML de classes (versão simplificada, apenas blocos com
+nome do tipo, relações entre os tipos, e cardinalidade) para o código do
+[exercício 22](03_poo.md#ex22) de Programação por Objetos.
+
+_Nota:_ A imagem contendo o diagrama, em formato PNG ou JPG, pode ser colocada
+neste [_issue_](https://github.com/VideojogosLusofona/lp1_exercicios/issues/34),
+a seguir às imagens que já lá estão. Basta editar o _issue_, arrastar a imagem
+para dentro da caixa, copiar o URL criado para a imagem arrastada, guardar o
+_issue_, e finalmente colar o URL no ficheiro Markdown da
+[solução](../solucoes/04_uml/01.md).
+
+> [Soluções](../solucoes/04_uml/04.md)
+
+---
+
+5 - Desenha o diagrama UML de classes (versão simplificada, apenas blocos com
+nome do tipo, relações entre os tipos, e cardinalidade) para o código do
+[exercício 23](03_poo.md#ex23) de Programação por Objetos.
+
+_Nota:_ A imagem contendo o diagrama, em formato PNG ou JPG, pode ser colocada
+neste [_issue_](https://github.com/VideojogosLusofona/lp1_exercicios/issues/34),
+a seguir às imagens que já lá estão. Basta editar o _issue_, arrastar a imagem
+para dentro da caixa, copiar o URL criado para a imagem arrastada, guardar o
+_issue_, e finalmente colar o URL no ficheiro Markdown da
+[solução](../solucoes/04_uml/01.md).
+
+> [Soluções](../solucoes/04_uml/05.md)
+
+---
