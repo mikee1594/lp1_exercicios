@@ -1,4 +1,4 @@
-﻿<!--
+<!--
 Exercícios de Linguagens de Programação I (c) by Nuno Fachada
 
 Exercícios de Linguagens de Programação I is licensed under a Creative Commons
@@ -148,7 +148,7 @@ O código associado aos exercícios é disponibilizado através da licença [GPL
   [Pedro Santos](https://github.com/pedrosantosobral),
   [Rui Martins](https://github.com/rui-martins),
   [Sara Gama](https://github.com/serapinta)
-* Curso: [Licenciatura em Aplicações Multimédia e Videojogos][lamv]
+* Curso: [Licenciatura em Videojogos][lamv]
 * Instituição: [Universidade Lusófona de Humanidades e Tecnologias][ULHT]
 
 [GPLv3]:https://www.gnu.org/licenses/gpl-3.0.en.html
@@ -156,3 +156,4 @@ O código associado aos exercícios é disponibilizado através da licença [GPL
 [lv]:https://www.ulusofona.pt/licenciatura/videojogos
 [Nuno Fachada]:https://github.com/fakenmc
 [ULHT]:https://www.ulusofona.pt/
+[lamv]:https://www.ulusofona.pt/licenciatura/videojogos
