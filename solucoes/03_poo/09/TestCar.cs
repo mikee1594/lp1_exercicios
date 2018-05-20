@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _LP1Exercises
+namespace LP1Exercises
 {
     class TestCar
     {

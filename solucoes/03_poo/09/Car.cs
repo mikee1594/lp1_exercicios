@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace _LP1Exercises
+namespace LP1Exercises
 {
     public enum FuelType { Gasoline, Diesel, LPG, Electric };
 
