@@ -7,10 +7,10 @@ namespace LP1Exercises
     public class Car
     {
 
-        public float Speed;
-        public float Weight;
-        public FuelType Fuel;
-        public static float MaxSpeed = 220.0F;
+        private float Speed;
+        private float Weight;
+        private FuelType Fuel;
+        private static float MaxSpeed = 220.0F;
 
         public Car(float weight, FuelType fuel)
         {
