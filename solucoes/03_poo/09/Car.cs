@@ -7,69 +7,69 @@ namespace LP1Exercises
     public class Car
     {
 
-        private float Speed;
-        private float Weight;
-        private FuelType Fuel;
-        private static float MaxSpeed = 220.0F;
+        private float speed;
+        private float weight;
+        private FuelType fuel;
+        private static float maxSpeed = 220.0F;
 
         public Car(float weight, FuelType fuel)
         {
-            Weight = weight;
-            Fuel = fuel;
-            Speed = 0;
+            this.weight = weight;
+            this.fuel = fuel;
+            speed = 0;
         }
 
         public float Accelerate(float x)
         {
             Console.WriteLine($"\tAccelerating {x}");
 
-            Speed += x;
+            speed += x;
 
-            if (Speed > MaxSpeed)
+            if (speed > maxSpeed)
             {
-                Console.WriteLine($"\t\tHitted Max Speed ({MaxSpeed}), accelerated {x - (Speed - MaxSpeed)}");
-                Speed = MaxSpeed;
+                Console.WriteLine($"\t\tHitted Max Speed ({maxSpeed}), accelerated {x - (speed - maxSpeed)}");
+                speed = maxSpeed;
             }
-            return Speed;
+            return speed;
         }
 
         public float Break(float x)
         {
             Console.WriteLine($"\tBreaking {x}");
 
-            Speed -= x;
+            speed -= x;
 
-            if (Speed < 0)
+            if (speed < 0)
             {
-                Console.WriteLine($"\t\tHitted Full Stop (0), breaked {Speed + x}");
-                Speed = 0;
+                Console.WriteLine($"\t\tHitted Full Stop (0), breaked {speed + x}");
+                speed = 0;
             }
-            return Speed;
+            return speed;
         }
 
         public float GetSpeed()
         {
-            return Speed;
+            return speed;
         }
 
         public FuelType GetFuelType()
         {
-            return Fuel;
+            return fuel;
         }
 
         public float GetWeight()
         {
-            return Weight;
+            return weight;
         }
 
         public static float GetMaxSpeed()
         {
-            return MaxSpeed;
+            return maxSpeed;
         }
 
         public static void SetMaxSpeed(float maxSpeed)
         {
-            MaxSpeed = maxSpeed;
+            Car.maxSpeed = maxSpeed;
         }
     }
 }
