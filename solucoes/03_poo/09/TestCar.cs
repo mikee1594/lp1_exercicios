@@ -1,10 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace _09
+namespace _LP1Exercises
 {
     class TestCar
     {
@@ -29,7 +25,8 @@ namespace _09
             Console.WriteLine($"Speed: {car.GetSpeed()}");
             Console.WriteLine();
             // Test SetMaxSpeed
-            Console.WriteLine($"Car Max Speed: {Car.SetMaxSpeed(300)}");
+            Car.SetMaxSpeed(300);
+            Console.WriteLine($"Car Max Speed: {Car.GetMaxSpeed()}");
             car.Accelerate(500);
         }
     }

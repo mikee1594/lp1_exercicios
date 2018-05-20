@@ -1,19 +1,15 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace _09
+namespace _LP1Exercises
 {
     public enum FuelType { Gasoline, Diesel, LPG, Electric };
 
     public class Car
     {
 
-        public float Speed { get; private set; }
-        public float Weight { get; private set; }
-        public FuelType Fuel { get; private set; }
+        public float Speed;
+        public float Weight;
+        public FuelType Fuel;
         public static float MaxSpeed = 220.0F;
 
         public Car(float weight, FuelType fuel)
@@ -71,11 +67,9 @@ namespace _09
             return MaxSpeed;
         }
 
-        public static float SetMaxSpeed(float maxSpeed)
+        public static void SetMaxSpeed(float maxSpeed)
         {
             MaxSpeed = maxSpeed;
-
-            return maxSpeed;
         }
     }
 }
